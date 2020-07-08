@@ -14,4 +14,4 @@ export OMP_PROC_BIND=spread
 
 
 #run the application:
-srun -n 64 -c 2 --cpu_bind=cores /global/homes/c/chrisdeg/2020/MAESTROeX/Exec/science/flame/Maestro2d.gnu.haswell.MPI.ex inputs_2d_smallscale_lvl3
+srun -n 64 -c 2 --cpu_bind=cores /global/homes/c/chrisdeg/2020/MAESTROeX/Exec/science/flame_convergence/Maestro2d.gnu.haswell.MPI.ex inputs_2d_smallscale_lvl3
