@@ -1,5 +1,5 @@
 
-# INITIAL MODEL
+0;276;0c# INITIAL MODEL
 maestro.model_file = "model_files/kepler_new_6.25e8.hybrid.hse.320"
 maestro.probin_file = "probin"
 maestro.perturb_model = false
@@ -78,7 +78,7 @@ maestro.check_base_name = chk
 maestro.chk_int         = -1
 
 # tolerances for the initial projection
-maestro.eps_init_proj_cart = 1.e-11
+maestro.eps_init_proj_cart = 1.e-9
 maestro.eps_init_proj_sph  = 1.e-10
 # tolerances for the divu iterations
 maestro.eps_divu_cart      = 1.e-11
