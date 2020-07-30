@@ -1,5 +1,5 @@
 
-# INITIAL MODEL
+0;276;0c# INITIAL MODEL
 maestro.model_file = "model_files/kepler_new_6.25e8.hybrid.hse.320"
 maestro.probin_file = "probin"
 maestro.perturb_model = false
@@ -36,7 +36,7 @@ amr.refine_grid_layout = 0       # chop grids up into smaller grids if nprocs > 
 maestro.temperr = 6.5e8 6.5e8 6.5e8
 
 # TIME STEPPING
-maestro.max_step  = 3000
+maestro.max_step  = 750
 maestro.stop_time = 1.e0
 maestro.cfl       = 0.5    # cfl number for hyperbolic system
                            # In this test problem, the velocity is

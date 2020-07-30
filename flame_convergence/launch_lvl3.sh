@@ -5,7 +5,7 @@
 #SBATCH -J Initial_MAESTRO_flamewave
 #SBATCH --mail-user=cjdegrendele@gmail.com
 #SBATCH --mail-type=ALL
-#SBATCH -t 00:25:00
+#SBATCH -t 00:55:00
 
 #OpenMP settings:
 export OMP_NUM_THREADS=1
