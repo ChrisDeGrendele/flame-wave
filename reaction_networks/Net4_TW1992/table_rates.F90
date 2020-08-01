@@ -1,0 +1,1 @@
+/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pynucastro/templates/starkiller-microphysics/table_rates.F90.template
