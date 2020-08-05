@@ -94,158 +94,142 @@ contains
     if (screen_reaclib) then
 
       call screen5(pstate, 1, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,79) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,79) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,80) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,80) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,676) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,676) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,82) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,82) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,83) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,83) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,679) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,679) = dscor_dt
 
 
       call screen5(pstate, 2, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,82) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,82) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,85) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,85) = dscor_dt
 
 
       call screen5(pstate, 3, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,83) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,83) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,387) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,387) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,388) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,388) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,86) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,86) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,390) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,390) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,391) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,391) = dscor_dt
 
 
       call screen5(pstate, 4, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,84) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,84) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,87) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,87) = dscor_dt
 
 
       call screen5(pstate, 5, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,86) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,86) = dscor_dt
-
-
-      call screen5(pstate, 6, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,88) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,88) = dscor_dt
-
-
-      call screen5(pstate, 7, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,89) = scor
       rate_eval % unscreened_rates(i_dscor_dt,89) = dscor_dt
 
 
-      call screen5(pstate, 8, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 6, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,91) = scor
       rate_eval % unscreened_rates(i_dscor_dt,91) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,395) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,395) = dscor_dt
 
 
-      call screen5(pstate, 9, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 7, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,92) = scor
       rate_eval % unscreened_rates(i_dscor_dt,92) = dscor_dt
 
 
+      call screen5(pstate, 8, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,94) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,94) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,398) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,398) = dscor_dt
+
+
+      call screen5(pstate, 9, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,95) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,95) = dscor_dt
+
+
       call screen5(pstate, 10, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,93) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,93) = dscor_dt
-
-
-      call screen5(pstate, 11, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,96) = scor
       rate_eval % unscreened_rates(i_dscor_dt,96) = dscor_dt
 
 
+      call screen5(pstate, 11, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,99) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,99) = dscor_dt
+
+
       call screen5(pstate, 12, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,97) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,97) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,401) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,401) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,100) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,100) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,404) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,404) = dscor_dt
 
 
       call screen5(pstate, 13, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,98) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,98) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,101) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,101) = dscor_dt
 
 
       call screen5(pstate, 14, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,100) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,100) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,103) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,103) = dscor_dt
 
 
       call screen5(pstate, 15, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,102) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,102) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,408) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,408) = dscor_dt
-
-
-      call screen5(pstate, 16, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,103) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,103) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,409) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,409) = dscor_dt
-
-
-      call screen5(pstate, 17, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,105) = scor
       rate_eval % unscreened_rates(i_dscor_dt,105) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,410) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,410) = dscor_dt
-
-
-      call screen5(pstate, 18, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,106) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,106) = dscor_dt
       rate_eval % unscreened_rates(i_scor,411) = scor
       rate_eval % unscreened_rates(i_dscor_dt,411) = dscor_dt
 
 
-      call screen5(pstate, 19, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,107) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,107) = dscor_dt
+      call screen5(pstate, 16, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,106) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,106) = dscor_dt
       rate_eval % unscreened_rates(i_scor,412) = scor
       rate_eval % unscreened_rates(i_dscor_dt,412) = dscor_dt
 
 
-      call screen5(pstate, 20, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 17, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,108) = scor
       rate_eval % unscreened_rates(i_dscor_dt,108) = dscor_dt
       rate_eval % unscreened_rates(i_scor,413) = scor
       rate_eval % unscreened_rates(i_dscor_dt,413) = dscor_dt
 
 
-      call screen5(pstate, 21, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 18, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,109) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,109) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,414) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,414) = dscor_dt
+
+
+      call screen5(pstate, 19, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,110) = scor
       rate_eval % unscreened_rates(i_dscor_dt,110) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,415) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,415) = dscor_dt
 
 
-      call screen5(pstate, 22, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 20, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,111) = scor
       rate_eval % unscreened_rates(i_dscor_dt,111) = dscor_dt
       rate_eval % unscreened_rates(i_scor,416) = scor
       rate_eval % unscreened_rates(i_dscor_dt,416) = dscor_dt
 
 
-      call screen5(pstate, 23, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 21, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,113) = scor
       rate_eval % unscreened_rates(i_dscor_dt,113) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,417) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,417) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,418) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,418) = dscor_dt
 
 
-      call screen5(pstate, 24, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 22, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,114) = scor
       rate_eval % unscreened_rates(i_dscor_dt,114) = dscor_dt
       rate_eval % unscreened_rates(i_scor,419) = scor
       rate_eval % unscreened_rates(i_dscor_dt,419) = dscor_dt
 
 
-      call screen5(pstate, 25, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 23, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,116) = scor
       rate_eval % unscreened_rates(i_dscor_dt,116) = dscor_dt
       rate_eval % unscreened_rates(i_scor,420) = scor
@@ -254,588 +238,588 @@ contains
       rate_eval % unscreened_rates(i_dscor_dt,421) = dscor_dt
 
 
-      call screen5(pstate, 26, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 24, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,117) = scor
       rate_eval % unscreened_rates(i_dscor_dt,117) = dscor_dt
       rate_eval % unscreened_rates(i_scor,422) = scor
       rate_eval % unscreened_rates(i_dscor_dt,422) = dscor_dt
+
+
+      call screen5(pstate, 25, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,119) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,119) = dscor_dt
       rate_eval % unscreened_rates(i_scor,423) = scor
       rate_eval % unscreened_rates(i_dscor_dt,423) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,424) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,424) = dscor_dt
+
+
+      call screen5(pstate, 26, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,120) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,120) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,425) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,425) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,426) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,426) = dscor_dt
 
 
       call screen5(pstate, 27, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,118) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,118) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,424) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,424) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,425) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,425) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,121) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,121) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,427) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,427) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,428) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,428) = dscor_dt
 
 
       call screen5(pstate, 28, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,120) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,120) = dscor_dt
-
-
-      call screen5(pstate, 29, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,121) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,121) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,429) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,429) = dscor_dt
-
-
-      call screen5(pstate, 30, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,123) = scor
       rate_eval % unscreened_rates(i_dscor_dt,123) = dscor_dt
 
 
-      call screen5(pstate, 31, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 29, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,124) = scor
       rate_eval % unscreened_rates(i_dscor_dt,124) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,432) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,432) = dscor_dt
 
 
-      call screen5(pstate, 32, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 30, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,126) = scor
       rate_eval % unscreened_rates(i_dscor_dt,126) = dscor_dt
 
 
-      call screen5(pstate, 33, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 31, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,127) = scor
       rate_eval % unscreened_rates(i_dscor_dt,127) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,433) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,433) = dscor_dt
 
 
-      call screen5(pstate, 34, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 32, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,129) = scor
       rate_eval % unscreened_rates(i_dscor_dt,129) = dscor_dt
 
 
-      call screen5(pstate, 35, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 33, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,130) = scor
       rate_eval % unscreened_rates(i_dscor_dt,130) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,434) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,434) = dscor_dt
-
-
-      call screen5(pstate, 36, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,132) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,132) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,435) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,435) = dscor_dt
-
-
-      call screen5(pstate, 37, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,133) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,133) = dscor_dt
       rate_eval % unscreened_rates(i_scor,436) = scor
       rate_eval % unscreened_rates(i_dscor_dt,436) = dscor_dt
 
 
-      call screen5(pstate, 38, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 34, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,132) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,132) = dscor_dt
+
+
+      call screen5(pstate, 35, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,133) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,133) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,437) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,437) = dscor_dt
+
+
+      call screen5(pstate, 36, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,135) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,135) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,438) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,438) = dscor_dt
+
+
+      call screen5(pstate, 37, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,136) = scor
       rate_eval % unscreened_rates(i_dscor_dt,136) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,439) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,439) = dscor_dt
 
 
-      call screen5(pstate, 39, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,137) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,137) = dscor_dt
-
-
-      call screen5(pstate, 40, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 38, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,139) = scor
       rate_eval % unscreened_rates(i_dscor_dt,139) = dscor_dt
 
 
-      call screen5(pstate, 41, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 39, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,140) = scor
       rate_eval % unscreened_rates(i_dscor_dt,140) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,445) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,445) = dscor_dt
 
 
-      call screen5(pstate, 42, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 40, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,142) = scor
       rate_eval % unscreened_rates(i_dscor_dt,142) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,446) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,446) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,447) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,447) = dscor_dt
 
 
-      call screen5(pstate, 43, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 41, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,143) = scor
       rate_eval % unscreened_rates(i_dscor_dt,143) = dscor_dt
       rate_eval % unscreened_rates(i_scor,448) = scor
       rate_eval % unscreened_rates(i_dscor_dt,448) = dscor_dt
 
 
-      call screen5(pstate, 44, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,144) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,144) = dscor_dt
+      call screen5(pstate, 42, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,145) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,145) = dscor_dt
       rate_eval % unscreened_rates(i_scor,449) = scor
       rate_eval % unscreened_rates(i_dscor_dt,449) = dscor_dt
       rate_eval % unscreened_rates(i_scor,450) = scor
       rate_eval % unscreened_rates(i_dscor_dt,450) = dscor_dt
 
 
-      call screen5(pstate, 45, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,145) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,145) = dscor_dt
+      call screen5(pstate, 43, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,146) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,146) = dscor_dt
       rate_eval % unscreened_rates(i_scor,451) = scor
       rate_eval % unscreened_rates(i_dscor_dt,451) = dscor_dt
+
+
+      call screen5(pstate, 44, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,147) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,147) = dscor_dt
       rate_eval % unscreened_rates(i_scor,452) = scor
       rate_eval % unscreened_rates(i_dscor_dt,452) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,453) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,453) = dscor_dt
+
+
+      call screen5(pstate, 45, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,148) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,148) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,454) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,454) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,455) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,455) = dscor_dt
 
 
       call screen5(pstate, 46, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,148) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,148) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,458) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,458) = dscor_dt
-
-
-      call screen5(pstate, 47, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,150) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,150) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,459) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,459) = dscor_dt
-
-
-      call screen5(pstate, 48, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,151) = scor
       rate_eval % unscreened_rates(i_dscor_dt,151) = dscor_dt
-
-
-      call screen5(pstate, 49, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,153) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,153) = dscor_dt
-
-
-      call screen5(pstate, 50, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,154) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,154) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,460) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,460) = dscor_dt
-
-
-      call screen5(pstate, 51, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,156) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,156) = dscor_dt
-
-
-      call screen5(pstate, 52, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,157) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,157) = dscor_dt
       rate_eval % unscreened_rates(i_scor,461) = scor
       rate_eval % unscreened_rates(i_dscor_dt,461) = dscor_dt
 
 
-      call screen5(pstate, 53, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,158) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,158) = dscor_dt
+      call screen5(pstate, 47, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,153) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,153) = dscor_dt
       rate_eval % unscreened_rates(i_scor,462) = scor
       rate_eval % unscreened_rates(i_dscor_dt,462) = dscor_dt
 
 
-      call screen5(pstate, 54, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,159) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,159) = dscor_dt
+      call screen5(pstate, 48, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,154) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,154) = dscor_dt
+
+
+      call screen5(pstate, 49, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,156) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,156) = dscor_dt
+
+
+      call screen5(pstate, 50, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,157) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,157) = dscor_dt
       rate_eval % unscreened_rates(i_scor,463) = scor
       rate_eval % unscreened_rates(i_dscor_dt,463) = dscor_dt
 
 
-      call screen5(pstate, 55, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 51, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,159) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,159) = dscor_dt
+
+
+      call screen5(pstate, 52, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,160) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,160) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,464) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,464) = dscor_dt
+
+
+      call screen5(pstate, 53, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,161) = scor
       rate_eval % unscreened_rates(i_dscor_dt,161) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,465) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,465) = dscor_dt
+
+
+      call screen5(pstate, 54, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,162) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,162) = dscor_dt
       rate_eval % unscreened_rates(i_scor,466) = scor
       rate_eval % unscreened_rates(i_dscor_dt,466) = dscor_dt
 
 
-      call screen5(pstate, 56, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,163) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,163) = dscor_dt
-
-
-      call screen5(pstate, 57, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 55, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,164) = scor
       rate_eval % unscreened_rates(i_dscor_dt,164) = dscor_dt
       rate_eval % unscreened_rates(i_scor,469) = scor
       rate_eval % unscreened_rates(i_dscor_dt,469) = dscor_dt
 
 
-      call screen5(pstate, 58, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 56, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,166) = scor
       rate_eval % unscreened_rates(i_dscor_dt,166) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,470) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,470) = dscor_dt
 
 
-      call screen5(pstate, 59, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 57, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,167) = scor
       rate_eval % unscreened_rates(i_dscor_dt,167) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,471) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,471) = dscor_dt
       rate_eval % unscreened_rates(i_scor,472) = scor
       rate_eval % unscreened_rates(i_dscor_dt,472) = dscor_dt
 
 
-      call screen5(pstate, 60, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 58, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,169) = scor
       rate_eval % unscreened_rates(i_dscor_dt,169) = dscor_dt
       rate_eval % unscreened_rates(i_scor,473) = scor
       rate_eval % unscreened_rates(i_dscor_dt,473) = dscor_dt
+
+
+      call screen5(pstate, 59, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,170) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,170) = dscor_dt
       rate_eval % unscreened_rates(i_scor,474) = scor
       rate_eval % unscreened_rates(i_dscor_dt,474) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,475) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,475) = dscor_dt
+
+
+      call screen5(pstate, 60, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,172) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,172) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,476) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,476) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,477) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,477) = dscor_dt
 
 
       call screen5(pstate, 61, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,170) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,170) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,475) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,475) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,476) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,476) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,173) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,173) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,478) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,478) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,479) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,479) = dscor_dt
 
 
       call screen5(pstate, 62, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,171) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,171) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,477) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,477) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,478) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,478) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,174) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,174) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,480) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,480) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,481) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,481) = dscor_dt
 
 
       call screen5(pstate, 63, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,172) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,172) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,479) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,479) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,480) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,480) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,175) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,175) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,482) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,482) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,483) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,483) = dscor_dt
 
 
       call screen5(pstate, 64, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,174) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,174) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,484) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,484) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,177) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,177) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,487) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,487) = dscor_dt
 
 
       call screen5(pstate, 65, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,176) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,176) = dscor_dt
-
-
-      call screen5(pstate, 66, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,177) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,177) = dscor_dt
-
-
-      call screen5(pstate, 67, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,179) = scor
       rate_eval % unscreened_rates(i_dscor_dt,179) = dscor_dt
 
 
-      call screen5(pstate, 68, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 66, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,180) = scor
       rate_eval % unscreened_rates(i_dscor_dt,180) = dscor_dt
 
 
-      call screen5(pstate, 69, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 67, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,182) = scor
       rate_eval % unscreened_rates(i_dscor_dt,182) = dscor_dt
 
 
-      call screen5(pstate, 70, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 68, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,183) = scor
       rate_eval % unscreened_rates(i_dscor_dt,183) = dscor_dt
 
 
-      call screen5(pstate, 71, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 69, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,185) = scor
       rate_eval % unscreened_rates(i_dscor_dt,185) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,485) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,485) = dscor_dt
+
+
+      call screen5(pstate, 70, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,186) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,186) = dscor_dt
+
+
+      call screen5(pstate, 71, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,188) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,188) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,488) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,488) = dscor_dt
 
 
       call screen5(pstate, 72, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,186) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,186) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,486) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,486) = dscor_dt
-
-
-      call screen5(pstate, 73, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,187) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,187) = dscor_dt
-
-
-      call screen5(pstate, 74, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,189) = scor
       rate_eval % unscreened_rates(i_dscor_dt,189) = dscor_dt
-
-
-      call screen5(pstate, 75, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,190) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,190) = dscor_dt
       rate_eval % unscreened_rates(i_scor,489) = scor
       rate_eval % unscreened_rates(i_dscor_dt,489) = dscor_dt
 
 
-      call screen5(pstate, 76, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 73, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,190) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,190) = dscor_dt
+
+
+      call screen5(pstate, 74, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,192) = scor
       rate_eval % unscreened_rates(i_dscor_dt,192) = dscor_dt
 
 
-      call screen5(pstate, 77, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 75, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,193) = scor
       rate_eval % unscreened_rates(i_dscor_dt,193) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,491) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,491) = dscor_dt
-
-
-      call screen5(pstate, 78, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,195) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,195) = dscor_dt
       rate_eval % unscreened_rates(i_scor,492) = scor
       rate_eval % unscreened_rates(i_dscor_dt,492) = dscor_dt
 
 
-      call screen5(pstate, 79, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 76, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,195) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,195) = dscor_dt
+
+
+      call screen5(pstate, 77, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,196) = scor
       rate_eval % unscreened_rates(i_dscor_dt,196) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,493) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,493) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,494) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,494) = dscor_dt
 
 
-      call screen5(pstate, 80, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 78, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,198) = scor
       rate_eval % unscreened_rates(i_dscor_dt,198) = dscor_dt
       rate_eval % unscreened_rates(i_scor,495) = scor
       rate_eval % unscreened_rates(i_dscor_dt,495) = dscor_dt
+
+
+      call screen5(pstate, 79, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,199) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,199) = dscor_dt
       rate_eval % unscreened_rates(i_scor,496) = scor
       rate_eval % unscreened_rates(i_dscor_dt,496) = dscor_dt
 
 
+      call screen5(pstate, 80, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,201) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,201) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,498) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,498) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,499) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,499) = dscor_dt
+
+
       call screen5(pstate, 81, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,199) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,199) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,202) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,202) = dscor_dt
 
 
       call screen5(pstate, 82, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,200) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,200) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,497) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,497) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,203) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,203) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,500) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,500) = dscor_dt
 
 
       call screen5(pstate, 83, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,201) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,201) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,204) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,204) = dscor_dt
 
 
       call screen5(pstate, 84, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,204) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,204) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,503) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,503) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,207) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,207) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,506) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,506) = dscor_dt
 
 
       call screen5(pstate, 85, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,206) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,206) = dscor_dt
-
-
-      call screen5(pstate, 86, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,207) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,207) = dscor_dt
-
-
-      call screen5(pstate, 87, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,209) = scor
       rate_eval % unscreened_rates(i_dscor_dt,209) = dscor_dt
 
 
-      call screen5(pstate, 88, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 86, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,210) = scor
       rate_eval % unscreened_rates(i_dscor_dt,210) = dscor_dt
 
 
-      call screen5(pstate, 89, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 87, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,212) = scor
       rate_eval % unscreened_rates(i_dscor_dt,212) = dscor_dt
 
 
-      call screen5(pstate, 90, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 88, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,213) = scor
       rate_eval % unscreened_rates(i_dscor_dt,213) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,507) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,507) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,508) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,508) = dscor_dt
 
 
-      call screen5(pstate, 91, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,214) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,214) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,510) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,510) = dscor_dt
-
-
-      call screen5(pstate, 92, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 89, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,215) = scor
       rate_eval % unscreened_rates(i_dscor_dt,215) = dscor_dt
+
+
+      call screen5(pstate, 90, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,216) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,216) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,510) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,510) = dscor_dt
       rate_eval % unscreened_rates(i_scor,511) = scor
       rate_eval % unscreened_rates(i_dscor_dt,511) = dscor_dt
 
 
-      call screen5(pstate, 93, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 91, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,217) = scor
       rate_eval % unscreened_rates(i_dscor_dt,217) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,513) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,513) = dscor_dt
+
+
+      call screen5(pstate, 92, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,218) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,218) = dscor_dt
       rate_eval % unscreened_rates(i_scor,514) = scor
       rate_eval % unscreened_rates(i_dscor_dt,514) = dscor_dt
 
 
-      call screen5(pstate, 94, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,219) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,219) = dscor_dt
-
-
-      call screen5(pstate, 95, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 93, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,220) = scor
       rate_eval % unscreened_rates(i_dscor_dt,220) = dscor_dt
       rate_eval % unscreened_rates(i_scor,517) = scor
       rate_eval % unscreened_rates(i_dscor_dt,517) = dscor_dt
 
 
-      call screen5(pstate, 96, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 94, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,222) = scor
       rate_eval % unscreened_rates(i_dscor_dt,222) = dscor_dt
+
+
+      call screen5(pstate, 95, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,223) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,223) = dscor_dt
       rate_eval % unscreened_rates(i_scor,520) = scor
       rate_eval % unscreened_rates(i_dscor_dt,520) = dscor_dt
 
 
-      call screen5(pstate, 97, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,223) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,223) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,521) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,521) = dscor_dt
-
-
-      call screen5(pstate, 98, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 96, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,225) = scor
       rate_eval % unscreened_rates(i_dscor_dt,225) = dscor_dt
       rate_eval % unscreened_rates(i_scor,523) = scor
       rate_eval % unscreened_rates(i_dscor_dt,523) = dscor_dt
 
 
-      call screen5(pstate, 99, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 97, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,226) = scor
       rate_eval % unscreened_rates(i_dscor_dt,226) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,524) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,524) = dscor_dt
 
 
-      call screen5(pstate, 100, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,227) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,227) = dscor_dt
-
-
-      call screen5(pstate, 101, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 98, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,228) = scor
       rate_eval % unscreened_rates(i_dscor_dt,228) = dscor_dt
-
-
-      call screen5(pstate, 102, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,230) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,230) = dscor_dt
       rate_eval % unscreened_rates(i_scor,526) = scor
       rate_eval % unscreened_rates(i_dscor_dt,526) = dscor_dt
 
 
-      call screen5(pstate, 103, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,232) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,232) = dscor_dt
+      call screen5(pstate, 99, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,229) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,229) = dscor_dt
 
 
-      call screen5(pstate, 104, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 100, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,230) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,230) = dscor_dt
+
+
+      call screen5(pstate, 101, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,231) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,231) = dscor_dt
+
+
+      call screen5(pstate, 102, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,233) = scor
       rate_eval % unscreened_rates(i_dscor_dt,233) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,529) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,529) = dscor_dt
 
 
-      call screen5(pstate, 105, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 103, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,235) = scor
       rate_eval % unscreened_rates(i_dscor_dt,235) = dscor_dt
 
 
-      call screen5(pstate, 106, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 104, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,236) = scor
       rate_eval % unscreened_rates(i_dscor_dt,236) = dscor_dt
 
 
-      call screen5(pstate, 107, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 105, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,238) = scor
       rate_eval % unscreened_rates(i_dscor_dt,238) = dscor_dt
 
 
-      call screen5(pstate, 108, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 106, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,239) = scor
       rate_eval % unscreened_rates(i_dscor_dt,239) = dscor_dt
 
 
-      call screen5(pstate, 109, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,240) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,240) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,530) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,530) = dscor_dt
-
-
-      call screen5(pstate, 110, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 107, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,241) = scor
       rate_eval % unscreened_rates(i_dscor_dt,241) = dscor_dt
 
 
-      call screen5(pstate, 111, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 108, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,242) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,242) = dscor_dt
+
+
+      call screen5(pstate, 109, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,243) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,243) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,533) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,533) = dscor_dt
+
+
+      call screen5(pstate, 110, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,244) = scor
       rate_eval % unscreened_rates(i_dscor_dt,244) = dscor_dt
 
 
-      call screen5(pstate, 112, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,245) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,245) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,536) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,536) = dscor_dt
-
-
-      call screen5(pstate, 113, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 111, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,247) = scor
       rate_eval % unscreened_rates(i_dscor_dt,247) = dscor_dt
+
+
+      call screen5(pstate, 112, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,248) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,248) = dscor_dt
       rate_eval % unscreened_rates(i_scor,539) = scor
       rate_eval % unscreened_rates(i_dscor_dt,539) = dscor_dt
 
 
-      call screen5(pstate, 114, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,248) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,248) = dscor_dt
-
-
-      call screen5(pstate, 115, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 113, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,250) = scor
       rate_eval % unscreened_rates(i_dscor_dt,250) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,541) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,541) = dscor_dt
       rate_eval % unscreened_rates(i_scor,542) = scor
       rate_eval % unscreened_rates(i_dscor_dt,542) = dscor_dt
 
 
-      call screen5(pstate, 116, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 114, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,251) = scor
       rate_eval % unscreened_rates(i_dscor_dt,251) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,543) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,543) = dscor_dt
 
 
-      call screen5(pstate, 117, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 115, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,253) = scor
       rate_eval % unscreened_rates(i_dscor_dt,253) = dscor_dt
       rate_eval % unscreened_rates(i_scor,544) = scor
@@ -844,677 +828,693 @@ contains
       rate_eval % unscreened_rates(i_dscor_dt,545) = dscor_dt
 
 
-      call screen5(pstate, 118, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 116, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,254) = scor
       rate_eval % unscreened_rates(i_dscor_dt,254) = dscor_dt
       rate_eval % unscreened_rates(i_scor,546) = scor
       rate_eval % unscreened_rates(i_dscor_dt,546) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,547) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,547) = dscor_dt
 
 
-      call screen5(pstate, 119, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,255) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,255) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,548) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,548) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,549) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,549) = dscor_dt
-
-
-      call screen5(pstate, 120, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 117, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,256) = scor
       rate_eval % unscreened_rates(i_dscor_dt,256) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,547) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,547) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,548) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,548) = dscor_dt
+
+
+      call screen5(pstate, 118, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,257) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,257) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,549) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,549) = dscor_dt
       rate_eval % unscreened_rates(i_scor,550) = scor
       rate_eval % unscreened_rates(i_dscor_dt,550) = dscor_dt
 
 
-      call screen5(pstate, 121, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 119, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,258) = scor
       rate_eval % unscreened_rates(i_dscor_dt,258) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,551) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,551) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,552) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,552) = dscor_dt
+
+
+      call screen5(pstate, 120, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,259) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,259) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,553) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,553) = dscor_dt
+
+
+      call screen5(pstate, 121, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,261) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,261) = dscor_dt
 
 
       call screen5(pstate, 122, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,260) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,260) = dscor_dt
-
-
-      call screen5(pstate, 123, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,262) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,262) = dscor_dt
-
-
-      call screen5(pstate, 124, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,263) = scor
       rate_eval % unscreened_rates(i_dscor_dt,263) = dscor_dt
 
 
-      call screen5(pstate, 125, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 123, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,265) = scor
       rate_eval % unscreened_rates(i_dscor_dt,265) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,556) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,556) = dscor_dt
 
 
-      call screen5(pstate, 126, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 124, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,266) = scor
       rate_eval % unscreened_rates(i_dscor_dt,266) = dscor_dt
 
 
-      call screen5(pstate, 127, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 125, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,268) = scor
       rate_eval % unscreened_rates(i_dscor_dt,268) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,559) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,559) = dscor_dt
 
 
-      call screen5(pstate, 128, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 126, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,269) = scor
       rate_eval % unscreened_rates(i_dscor_dt,269) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,557) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,557) = dscor_dt
 
 
-      call screen5(pstate, 129, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,270) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,270) = dscor_dt
-
-
-      call screen5(pstate, 130, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 127, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,271) = scor
       rate_eval % unscreened_rates(i_dscor_dt,271) = dscor_dt
 
 
-      call screen5(pstate, 131, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,273) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,273) = dscor_dt
+      call screen5(pstate, 128, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,272) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,272) = dscor_dt
       rate_eval % unscreened_rates(i_scor,560) = scor
       rate_eval % unscreened_rates(i_dscor_dt,560) = dscor_dt
 
 
-      call screen5(pstate, 132, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 129, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,273) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,273) = dscor_dt
+
+
+      call screen5(pstate, 130, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,274) = scor
       rate_eval % unscreened_rates(i_dscor_dt,274) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,561) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,561) = dscor_dt
 
 
-      call screen5(pstate, 133, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 131, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,276) = scor
       rate_eval % unscreened_rates(i_dscor_dt,276) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,563) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,563) = dscor_dt
+
+
+      call screen5(pstate, 132, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,277) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,277) = dscor_dt
       rate_eval % unscreened_rates(i_scor,564) = scor
       rate_eval % unscreened_rates(i_dscor_dt,564) = dscor_dt
 
 
-      call screen5(pstate, 134, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,277) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,277) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,565) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,565) = dscor_dt
-
-
-      call screen5(pstate, 135, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 133, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,279) = scor
       rate_eval % unscreened_rates(i_dscor_dt,279) = dscor_dt
       rate_eval % unscreened_rates(i_scor,567) = scor
       rate_eval % unscreened_rates(i_dscor_dt,567) = dscor_dt
 
 
-      call screen5(pstate, 136, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 134, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,280) = scor
       rate_eval % unscreened_rates(i_dscor_dt,280) = dscor_dt
       rate_eval % unscreened_rates(i_scor,568) = scor
       rate_eval % unscreened_rates(i_dscor_dt,568) = dscor_dt
 
 
-      call screen5(pstate, 137, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 135, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,282) = scor
       rate_eval % unscreened_rates(i_dscor_dt,282) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,569) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,569) = dscor_dt
-
-
-      call screen5(pstate, 138, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,283) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,283) = dscor_dt
       rate_eval % unscreened_rates(i_scor,570) = scor
       rate_eval % unscreened_rates(i_dscor_dt,570) = dscor_dt
 
 
-      call screen5(pstate, 139, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,284) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,284) = dscor_dt
+      call screen5(pstate, 136, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,283) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,283) = dscor_dt
       rate_eval % unscreened_rates(i_scor,571) = scor
       rate_eval % unscreened_rates(i_dscor_dt,571) = dscor_dt
+
+
+      call screen5(pstate, 137, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,285) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,285) = dscor_dt
       rate_eval % unscreened_rates(i_scor,572) = scor
       rate_eval % unscreened_rates(i_dscor_dt,572) = dscor_dt
 
 
-      call screen5(pstate, 140, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,285) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,285) = dscor_dt
+      call screen5(pstate, 138, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,286) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,286) = dscor_dt
       rate_eval % unscreened_rates(i_scor,573) = scor
       rate_eval % unscreened_rates(i_dscor_dt,573) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,574) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,574) = dscor_dt
 
 
-      call screen5(pstate, 141, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 139, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,287) = scor
       rate_eval % unscreened_rates(i_dscor_dt,287) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,574) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,574) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,575) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,575) = dscor_dt
+
+
+      call screen5(pstate, 140, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,288) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,288) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,576) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,576) = dscor_dt
       rate_eval % unscreened_rates(i_scor,577) = scor
       rate_eval % unscreened_rates(i_dscor_dt,577) = dscor_dt
 
 
-      call screen5(pstate, 142, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,289) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,289) = dscor_dt
+      call screen5(pstate, 141, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,290) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,290) = dscor_dt
       rate_eval % unscreened_rates(i_scor,580) = scor
       rate_eval % unscreened_rates(i_dscor_dt,580) = dscor_dt
 
 
-      call screen5(pstate, 143, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,291) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,291) = dscor_dt
-
-
-      call screen5(pstate, 144, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 142, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,292) = scor
       rate_eval % unscreened_rates(i_dscor_dt,292) = dscor_dt
       rate_eval % unscreened_rates(i_scor,583) = scor
       rate_eval % unscreened_rates(i_dscor_dt,583) = dscor_dt
 
 
-      call screen5(pstate, 145, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 143, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,294) = scor
       rate_eval % unscreened_rates(i_dscor_dt,294) = dscor_dt
 
 
-      call screen5(pstate, 146, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 144, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,295) = scor
       rate_eval % unscreened_rates(i_dscor_dt,295) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,586) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,586) = dscor_dt
 
 
-      call screen5(pstate, 147, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 145, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,297) = scor
       rate_eval % unscreened_rates(i_dscor_dt,297) = dscor_dt
 
 
-      call screen5(pstate, 148, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 146, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,298) = scor
       rate_eval % unscreened_rates(i_dscor_dt,298) = dscor_dt
 
 
-      call screen5(pstate, 149, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 147, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,300) = scor
       rate_eval % unscreened_rates(i_dscor_dt,300) = dscor_dt
 
 
-      call screen5(pstate, 150, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 148, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,301) = scor
       rate_eval % unscreened_rates(i_dscor_dt,301) = dscor_dt
 
 
-      call screen5(pstate, 151, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,302) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,302) = dscor_dt
+      call screen5(pstate, 149, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,303) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,303) = dscor_dt
 
 
-      call screen5(pstate, 152, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 150, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,304) = scor
       rate_eval % unscreened_rates(i_dscor_dt,304) = dscor_dt
 
 
-      call screen5(pstate, 153, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 151, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,305) = scor
       rate_eval % unscreened_rates(i_dscor_dt,305) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,588) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,588) = dscor_dt
 
 
-      call screen5(pstate, 154, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 152, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,307) = scor
       rate_eval % unscreened_rates(i_dscor_dt,307) = dscor_dt
 
 
-      call screen5(pstate, 155, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 153, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,308) = scor
       rate_eval % unscreened_rates(i_dscor_dt,308) = dscor_dt
       rate_eval % unscreened_rates(i_scor,591) = scor
       rate_eval % unscreened_rates(i_dscor_dt,591) = dscor_dt
 
 
-      call screen5(pstate, 156, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 154, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,310) = scor
       rate_eval % unscreened_rates(i_dscor_dt,310) = dscor_dt
 
 
-      call screen5(pstate, 157, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 155, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,311) = scor
       rate_eval % unscreened_rates(i_dscor_dt,311) = dscor_dt
       rate_eval % unscreened_rates(i_scor,594) = scor
       rate_eval % unscreened_rates(i_dscor_dt,594) = dscor_dt
 
 
-      call screen5(pstate, 158, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 156, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,313) = scor
       rate_eval % unscreened_rates(i_dscor_dt,313) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,596) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,596) = dscor_dt
 
 
-      call screen5(pstate, 159, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 157, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,314) = scor
       rate_eval % unscreened_rates(i_dscor_dt,314) = dscor_dt
       rate_eval % unscreened_rates(i_scor,597) = scor
       rate_eval % unscreened_rates(i_dscor_dt,597) = dscor_dt
 
 
-      call screen5(pstate, 160, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 158, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,316) = scor
       rate_eval % unscreened_rates(i_dscor_dt,316) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,598) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,598) = dscor_dt
       rate_eval % unscreened_rates(i_scor,599) = scor
       rate_eval % unscreened_rates(i_dscor_dt,599) = dscor_dt
 
 
-      call screen5(pstate, 161, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 159, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,317) = scor
       rate_eval % unscreened_rates(i_dscor_dt,317) = dscor_dt
-
-
-      call screen5(pstate, 162, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,318) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,318) = dscor_dt
       rate_eval % unscreened_rates(i_scor,600) = scor
       rate_eval % unscreened_rates(i_dscor_dt,600) = dscor_dt
 
 
-      call screen5(pstate, 163, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 160, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,319) = scor
       rate_eval % unscreened_rates(i_dscor_dt,319) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,601) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,601) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,602) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,602) = dscor_dt
 
 
-      call screen5(pstate, 164, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 161, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,320) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,320) = dscor_dt
+
+
+      call screen5(pstate, 162, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,321) = scor
       rate_eval % unscreened_rates(i_dscor_dt,321) = dscor_dt
       rate_eval % unscreened_rates(i_scor,603) = scor
       rate_eval % unscreened_rates(i_dscor_dt,603) = dscor_dt
 
 
-      call screen5(pstate, 165, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,323) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,323) = dscor_dt
+      call screen5(pstate, 163, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,322) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,322) = dscor_dt
 
 
-      call screen5(pstate, 166, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 164, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,324) = scor
       rate_eval % unscreened_rates(i_dscor_dt,324) = dscor_dt
       rate_eval % unscreened_rates(i_scor,606) = scor
       rate_eval % unscreened_rates(i_dscor_dt,606) = dscor_dt
 
 
-      call screen5(pstate, 167, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 165, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,326) = scor
       rate_eval % unscreened_rates(i_dscor_dt,326) = dscor_dt
 
 
-      call screen5(pstate, 168, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 166, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,327) = scor
       rate_eval % unscreened_rates(i_dscor_dt,327) = dscor_dt
       rate_eval % unscreened_rates(i_scor,609) = scor
       rate_eval % unscreened_rates(i_dscor_dt,609) = dscor_dt
 
 
-      call screen5(pstate, 169, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 167, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,329) = scor
       rate_eval % unscreened_rates(i_dscor_dt,329) = dscor_dt
 
 
-      call screen5(pstate, 170, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 168, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,330) = scor
       rate_eval % unscreened_rates(i_dscor_dt,330) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,612) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,612) = dscor_dt
 
 
-      call screen5(pstate, 171, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 169, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,332) = scor
       rate_eval % unscreened_rates(i_dscor_dt,332) = dscor_dt
 
 
-      call screen5(pstate, 172, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 170, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,333) = scor
       rate_eval % unscreened_rates(i_dscor_dt,333) = dscor_dt
 
 
-      call screen5(pstate, 173, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,334) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,334) = dscor_dt
-
-
-      call screen5(pstate, 174, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 171, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,335) = scor
       rate_eval % unscreened_rates(i_dscor_dt,335) = dscor_dt
 
 
-      call screen5(pstate, 175, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 172, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,336) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,336) = dscor_dt
+
+
+      call screen5(pstate, 173, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,337) = scor
       rate_eval % unscreened_rates(i_dscor_dt,337) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,615) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,615) = dscor_dt
 
 
-      call screen5(pstate, 176, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,339) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,339) = dscor_dt
+      call screen5(pstate, 174, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,338) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,338) = dscor_dt
 
 
-      call screen5(pstate, 177, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 175, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,340) = scor
       rate_eval % unscreened_rates(i_dscor_dt,340) = dscor_dt
       rate_eval % unscreened_rates(i_scor,618) = scor
       rate_eval % unscreened_rates(i_dscor_dt,618) = dscor_dt
 
 
-      call screen5(pstate, 178, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 176, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,342) = scor
       rate_eval % unscreened_rates(i_dscor_dt,342) = dscor_dt
 
 
-      call screen5(pstate, 179, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 177, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,343) = scor
       rate_eval % unscreened_rates(i_dscor_dt,343) = dscor_dt
       rate_eval % unscreened_rates(i_scor,621) = scor
       rate_eval % unscreened_rates(i_dscor_dt,621) = dscor_dt
 
 
-      call screen5(pstate, 180, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 178, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,345) = scor
       rate_eval % unscreened_rates(i_dscor_dt,345) = dscor_dt
 
 
-      call screen5(pstate, 181, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 179, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,346) = scor
       rate_eval % unscreened_rates(i_dscor_dt,346) = dscor_dt
       rate_eval % unscreened_rates(i_scor,624) = scor
       rate_eval % unscreened_rates(i_dscor_dt,624) = dscor_dt
 
 
-      call screen5(pstate, 182, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 180, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,348) = scor
       rate_eval % unscreened_rates(i_dscor_dt,348) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,626) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,626) = dscor_dt
 
 
-      call screen5(pstate, 183, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 181, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,349) = scor
       rate_eval % unscreened_rates(i_dscor_dt,349) = dscor_dt
       rate_eval % unscreened_rates(i_scor,627) = scor
       rate_eval % unscreened_rates(i_dscor_dt,627) = dscor_dt
 
 
-      call screen5(pstate, 184, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 182, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,351) = scor
       rate_eval % unscreened_rates(i_dscor_dt,351) = dscor_dt
       rate_eval % unscreened_rates(i_scor,629) = scor
       rate_eval % unscreened_rates(i_dscor_dt,629) = dscor_dt
 
 
-      call screen5(pstate, 185, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 183, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,352) = scor
       rate_eval % unscreened_rates(i_dscor_dt,352) = dscor_dt
-
-
-      call screen5(pstate, 186, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,353) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,353) = dscor_dt
       rate_eval % unscreened_rates(i_scor,630) = scor
       rate_eval % unscreened_rates(i_dscor_dt,630) = dscor_dt
 
 
-      call screen5(pstate, 187, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 184, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,354) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,354) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,632) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,632) = dscor_dt
+
+
+      call screen5(pstate, 185, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,355) = scor
       rate_eval % unscreened_rates(i_dscor_dt,355) = dscor_dt
+
+
+      call screen5(pstate, 186, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,356) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,356) = dscor_dt
       rate_eval % unscreened_rates(i_scor,633) = scor
       rate_eval % unscreened_rates(i_dscor_dt,633) = dscor_dt
 
 
-      call screen5(pstate, 188, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,357) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,357) = dscor_dt
-
-
-      call screen5(pstate, 189, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 187, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,358) = scor
       rate_eval % unscreened_rates(i_dscor_dt,358) = dscor_dt
       rate_eval % unscreened_rates(i_scor,636) = scor
       rate_eval % unscreened_rates(i_dscor_dt,636) = dscor_dt
 
 
-      call screen5(pstate, 190, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 188, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,360) = scor
       rate_eval % unscreened_rates(i_dscor_dt,360) = dscor_dt
 
 
-      call screen5(pstate, 191, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 189, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,361) = scor
       rate_eval % unscreened_rates(i_dscor_dt,361) = dscor_dt
       rate_eval % unscreened_rates(i_scor,639) = scor
       rate_eval % unscreened_rates(i_dscor_dt,639) = dscor_dt
 
 
-      call screen5(pstate, 192, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 190, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,363) = scor
       rate_eval % unscreened_rates(i_dscor_dt,363) = dscor_dt
 
 
-      call screen5(pstate, 193, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 191, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,364) = scor
       rate_eval % unscreened_rates(i_dscor_dt,364) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,642) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,642) = dscor_dt
 
 
-      call screen5(pstate, 194, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 192, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,366) = scor
       rate_eval % unscreened_rates(i_dscor_dt,366) = dscor_dt
 
 
-      call screen5(pstate, 195, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 193, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,367) = scor
       rate_eval % unscreened_rates(i_dscor_dt,367) = dscor_dt
 
 
-      call screen5(pstate, 196, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,368) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,368) = dscor_dt
-
-
-      call screen5(pstate, 197, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 194, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,369) = scor
       rate_eval % unscreened_rates(i_dscor_dt,369) = dscor_dt
 
 
-      call screen5(pstate, 198, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 195, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,370) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,370) = dscor_dt
+
+
+      call screen5(pstate, 196, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,371) = scor
       rate_eval % unscreened_rates(i_dscor_dt,371) = dscor_dt
 
 
+      call screen5(pstate, 197, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,372) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,372) = dscor_dt
+
+
+      call screen5(pstate, 198, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,374) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,374) = dscor_dt
+
+
       call screen5(pstate, 199, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,373) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,373) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,376) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,376) = dscor_dt
 
 
       call screen5(pstate, 200, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,375) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,375) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,378) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,378) = dscor_dt
 
 
       call screen5(pstate, 201, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,377) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,377) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,380) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,380) = dscor_dt
 
 
       call screen5(pstate, 202, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,379) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,379) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,657) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,657) = dscor_dt
-
-
-      call screen5(pstate, 203, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,380) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,380) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,382) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,382) = dscor_dt
       rate_eval % unscreened_rates(i_scor,660) = scor
       rate_eval % unscreened_rates(i_dscor_dt,660) = dscor_dt
 
 
+      call screen5(pstate, 203, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,383) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,383) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,663) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,663) = dscor_dt
+
+
       call screen5(pstate, 204, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,389) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,389) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,392) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,392) = dscor_dt
 
 
       call screen5(pstate, 205, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,391) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,391) = dscor_dt
-
-
-      call screen5(pstate, 206, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,392) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,392) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,673) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,673) = dscor_dt
-
-
-      call screen5(pstate, 207, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,393) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,393) = dscor_dt
       rate_eval % unscreened_rates(i_scor,394) = scor
       rate_eval % unscreened_rates(i_dscor_dt,394) = dscor_dt
 
 
-      call screen5(pstate, 208, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 206, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,395) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,395) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,676) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,676) = dscor_dt
+
+
+      call screen5(pstate, 207, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,396) = scor
       rate_eval % unscreened_rates(i_dscor_dt,396) = dscor_dt
-
-
-      call screen5(pstate, 209, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,397) = scor
       rate_eval % unscreened_rates(i_dscor_dt,397) = dscor_dt
 
 
-      call screen5(pstate, 210, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,398) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,398) = dscor_dt
-
-
-      call screen5(pstate, 211, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 208, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,399) = scor
       rate_eval % unscreened_rates(i_dscor_dt,399) = dscor_dt
 
 
-      call screen5(pstate, 212, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 209, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,400) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,400) = dscor_dt
+
+
+      call screen5(pstate, 210, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,401) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,401) = dscor_dt
+
+
+      call screen5(pstate, 211, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,402) = scor
       rate_eval % unscreened_rates(i_dscor_dt,402) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,403) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,403) = dscor_dt
 
 
-      call screen5(pstate, 213, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,404) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,404) = dscor_dt
+      call screen5(pstate, 212, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,405) = scor
       rate_eval % unscreened_rates(i_dscor_dt,405) = dscor_dt
       rate_eval % unscreened_rates(i_scor,406) = scor
       rate_eval % unscreened_rates(i_dscor_dt,406) = dscor_dt
 
 
+      call screen5(pstate, 213, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,407) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,407) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,408) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,408) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,409) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,409) = dscor_dt
+
+
       call screen5(pstate, 214, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,426) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,426) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,427) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,427) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,429) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,429) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,430) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,430) = dscor_dt
 
 
       call screen5(pstate, 215, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,430) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,430) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,431) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,431) = dscor_dt
-      rate_eval % unscreened_rates(i_scor,432) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,432) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,433) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,433) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,434) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,434) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,435) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,435) = dscor_dt
 
 
       call screen5(pstate, 216, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,437) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,437) = dscor_dt
-
-
-      call screen5(pstate, 217, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,438) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,438) = dscor_dt
-
-
-      call screen5(pstate, 218, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,440) = scor
       rate_eval % unscreened_rates(i_dscor_dt,440) = dscor_dt
 
 
+      call screen5(pstate, 217, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,441) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,441) = dscor_dt
+
+
+      call screen5(pstate, 218, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,443) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,443) = dscor_dt
+
+
       call screen5(pstate, 219, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,455) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,455) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,458) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,458) = dscor_dt
 
 
       call screen5(pstate, 220, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,500) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,500) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,503) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,503) = dscor_dt
 
 
       call screen5(pstate, 221, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,533) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,533) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,536) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,536) = dscor_dt
 
 
       call screen5(pstate, 222, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,585) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,585) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,588) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,588) = dscor_dt
 
 
       call screen5(pstate, 223, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,646) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,646) = dscor_dt
-
-
-      call screen5(pstate, 224, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,649) = scor
       rate_eval % unscreened_rates(i_dscor_dt,649) = dscor_dt
 
 
-      call screen5(pstate, 225, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 224, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,652) = scor
       rate_eval % unscreened_rates(i_dscor_dt,652) = dscor_dt
 
 
-      call screen5(pstate, 226, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 225, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,655) = scor
       rate_eval % unscreened_rates(i_dscor_dt,655) = dscor_dt
 
 
-      call screen5(pstate, 227, scor, dscor_dt, dscor_dd)
+      call screen5(pstate, 226, scor, dscor_dt, dscor_dd)
       rate_eval % unscreened_rates(i_scor,658) = scor
       rate_eval % unscreened_rates(i_dscor_dt,658) = dscor_dt
 
 
+      call screen5(pstate, 227, scor, dscor_dt, dscor_dd)
+      rate_eval % unscreened_rates(i_scor,661) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,661) = dscor_dt
+
+
       call screen5(pstate, 228, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,672) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,672) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,675) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,675) = dscor_dt
 
 
       call screen5(pstate, 229, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,674) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,674) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,677) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,677) = dscor_dt
 
 
       call screen5(pstate, 230, scor, dscor_dt, dscor_dd)
-      rate_eval % unscreened_rates(i_scor,675) = scor
-      rate_eval % unscreened_rates(i_dscor_dt,675) = dscor_dt
+      rate_eval % unscreened_rates(i_scor,678) = scor
+      rate_eval % unscreened_rates(i_dscor_dt,678) = dscor_dt
 
     end if
 
@@ -3725,7 +3725,8 @@ contains
       screened_rates(k_p_ti49__v50)*Y(jp)*Y(jti49)*state % rho - &
       screened_rates(k_p_v50__cr51)*Y(jp)*Y(jv50)*state % rho - &
       screened_rates(k_p_v50__he4_ti47)*Y(jp)*Y(jv50)*state % rho - &
-      screened_rates(k_p_v50__n_cr50)*Y(jp)*Y(jv50)*state % rho &
+      screened_rates(k_p_v50__n_cr50)*Y(jp)*Y(jv50)*state % rho - &
+      screened_rates(k_v50__cr50__weak__wc12)*Y(jv50) &
        )
 
     ydot_nuc(jv51) = ( &
@@ -3789,7 +3790,8 @@ contains
       screened_rates(k_p_cr50__mn51)*Y(jcr50)*Y(jp)*state % rho + &
       screened_rates(k_p_mn53__he4_cr50)*Y(jmn53)*Y(jp)*state % rho + &
       screened_rates(k_p_v49__cr50)*Y(jp)*Y(jv49)*state % rho + &
-      screened_rates(k_p_v50__n_cr50)*Y(jp)*Y(jv50)*state % rho &
+      screened_rates(k_p_v50__n_cr50)*Y(jp)*Y(jv50)*state % rho + &
+      screened_rates(k_v50__cr50__weak__wc12)*Y(jv50) &
        )
 
     ydot_nuc(jcr51) = ( &
@@ -3895,7 +3897,8 @@ contains
 
     ydot_nuc(jmn54) = ( &
       -screened_rates(k_he4_mn54__co58)*Y(jhe4)*Y(jmn54)*state % rho + &
-      screened_rates(k_he4_v50__mn54)*Y(jhe4)*Y(jv50)*state % rho + &
+      screened_rates(k_he4_v50__mn54)*Y(jhe4)*Y(jv50)*state % rho - &
+      screened_rates(k_mn54__fe54__weak__wc12)*Y(jmn54) + &
       screened_rates(k_n_co57__he4_mn54)*Y(jco57)*Y(jn)*state % rho + &
       screened_rates(k_n_fe54__p_mn54)*Y(jfe54)*Y(jn)*state % rho + &
       screened_rates(k_n_mn53__mn54)*Y(jmn53)*Y(jn)*state % rho - &
@@ -3960,11 +3963,12 @@ contains
       screened_rates(k_co54__fe54__weak__wc12)*Y(jco54) + screened_rates(k_he4_cr50__fe54)* &
       Y(jcr50)*Y(jhe4)*state % rho - screened_rates(k_he4_fe54__ni58)* &
       Y(jfe54)*Y(jhe4)*state % rho + screened_rates(k_he4_mn51__p_fe54)* &
-      Y(jhe4)*Y(jmn51)*state % rho + screened_rates(k_n_co54__p_fe54)* &
-      Y(jco54)*Y(jn)*state % rho + screened_rates(k_n_fe53__fe54)*Y(jfe53)* &
-      Y(jn)*state % rho - screened_rates(k_n_fe54__fe55)*Y(jfe54)*Y(jn)* &
-      state % rho - screened_rates(k_n_fe54__he4_cr51)*Y(jfe54)*Y(jn)*state % rho &
-      - screened_rates(k_n_fe54__p_mn54)*Y(jfe54)*Y(jn)*state % rho + &
+      Y(jhe4)*Y(jmn51)*state % rho + screened_rates(k_mn54__fe54__weak__wc12)* &
+      Y(jmn54) + screened_rates(k_n_co54__p_fe54)*Y(jco54)*Y(jn)*state % rho &
+      + screened_rates(k_n_fe53__fe54)*Y(jfe53)*Y(jn)*state % rho - &
+      screened_rates(k_n_fe54__fe55)*Y(jfe54)*Y(jn)*state % rho - &
+      screened_rates(k_n_fe54__he4_cr51)*Y(jfe54)*Y(jn)*state % rho - &
+      screened_rates(k_n_fe54__p_mn54)*Y(jfe54)*Y(jn)*state % rho + &
       screened_rates(k_n_ni57__he4_fe54)*Y(jn)*Y(jni57)*state % rho + &
       screened_rates(k_p_co57__he4_fe54)*Y(jco57)*Y(jp)*state % rho - &
       screened_rates(k_p_fe54__co55)*Y(jfe54)*Y(jp)*state % rho + &
@@ -4065,10 +4069,10 @@ contains
        )
 
     ydot_nuc(jco58) = ( &
-      screened_rates(k_he4_mn54__co58)*Y(jhe4)*Y(jmn54)*state % rho + &
-      screened_rates(k_n_co57__co58)*Y(jco57)*Y(jn)*state % rho - &
-      screened_rates(k_n_co58__he4_mn55)*Y(jco58)*Y(jn)*state % rho + &
-      screened_rates(k_n_ni58__p_co58)*Y(jn)*Y(jni58)*state % rho - &
+      -screened_rates(k_co58__ni58__weak__mo03)*Y(jco58) + screened_rates(k_he4_mn54__co58)* &
+      Y(jhe4)*Y(jmn54)*state % rho + screened_rates(k_n_co57__co58)*Y(jco57)* &
+      Y(jn)*state % rho - screened_rates(k_n_co58__he4_mn55)*Y(jco58)*Y(jn)* &
+      state % rho + screened_rates(k_n_ni58__p_co58)*Y(jn)*Y(jni58)*state % rho - &
       screened_rates(k_p_co58__he4_fe55)*Y(jco58)*Y(jp)*state % rho - &
       screened_rates(k_p_co58__ni59)*Y(jco58)*Y(jp)*state % rho &
        )
@@ -4114,12 +4118,12 @@ contains
        )
 
     ydot_nuc(jni58) = ( &
-      screened_rates(k_he4_co55__p_ni58)*Y(jco55)*Y(jhe4)*state % rho + &
-      screened_rates(k_he4_fe54__ni58)*Y(jfe54)*Y(jhe4)*state % rho + &
-      screened_rates(k_n_ni57__ni58)*Y(jn)*Y(jni57)*state % rho - &
-      screened_rates(k_n_ni58__he4_fe55)*Y(jn)*Y(jni58)*state % rho - &
-      screened_rates(k_n_ni58__ni59)*Y(jn)*Y(jni58)*state % rho - &
-      screened_rates(k_n_ni58__p_co58)*Y(jn)*Y(jni58)*state % rho + &
+      screened_rates(k_co58__ni58__weak__mo03)*Y(jco58) + screened_rates(k_he4_co55__p_ni58)* &
+      Y(jco55)*Y(jhe4)*state % rho + screened_rates(k_he4_fe54__ni58)* &
+      Y(jfe54)*Y(jhe4)*state % rho + screened_rates(k_n_ni57__ni58)*Y(jn)* &
+      Y(jni57)*state % rho - screened_rates(k_n_ni58__he4_fe55)*Y(jn)* &
+      Y(jni58)*state % rho - screened_rates(k_n_ni58__ni59)*Y(jn)*Y(jni58)* &
+      state % rho - screened_rates(k_n_ni58__p_co58)*Y(jn)*Y(jni58)*state % rho + &
       screened_rates(k_p_co57__ni58)*Y(jco57)*Y(jp)*state % rho &
        )
 
@@ -12152,7 +12156,8 @@ contains
       -screened_rates(k_he4_v50__mn54)*Y(jhe4)*state % rho - screened_rates(k_n_v50__v51)*Y(jn) &
       *state % rho - screened_rates(k_p_v50__cr51)*Y(jp)*state % rho - &
       screened_rates(k_p_v50__he4_ti47)*Y(jp)*state % rho - &
-      screened_rates(k_p_v50__n_cr50)*Y(jp)*state % rho &
+      screened_rates(k_p_v50__n_cr50)*Y(jp)*state % rho - &
+      screened_rates(k_v50__cr50__weak__wc12) &
        )
     call set_jac_entry(jac, jv50, jv50, scratch)
 
@@ -12387,7 +12392,7 @@ contains
     call set_jac_entry(jac, jcr50, jv49, scratch)
 
     scratch = (&
-      screened_rates(k_p_v50__n_cr50)*Y(jp)*state % rho &
+      screened_rates(k_p_v50__n_cr50)*Y(jp)*state % rho + screened_rates(k_v50__cr50__weak__wc12) &
        )
     call set_jac_entry(jac, jcr50, jv50, scratch)
 
@@ -12846,7 +12851,8 @@ contains
     call set_jac_entry(jac, jmn54, jmn53, scratch)
 
     scratch = (&
-      -screened_rates(k_he4_mn54__co58)*Y(jhe4)*state % rho - screened_rates(k_n_mn54__he4_v51)* &
+      -screened_rates(k_he4_mn54__co58)*Y(jhe4)*state % rho - &
+      screened_rates(k_mn54__fe54__weak__wc12) - screened_rates(k_n_mn54__he4_v51)* &
       Y(jn)*state % rho - screened_rates(k_n_mn54__mn55)*Y(jn)*state % rho - &
       screened_rates(k_p_mn54__fe55)*Y(jp)*state % rho - &
       screened_rates(k_p_mn54__he4_cr51)*Y(jp)*state % rho &
@@ -13105,6 +13111,11 @@ contains
       screened_rates(k_p_mn53__fe54)*Y(jp)*state % rho &
        )
     call set_jac_entry(jac, jfe54, jmn53, scratch)
+
+    scratch = (&
+      screened_rates(k_mn54__fe54__weak__wc12) &
+       )
+    call set_jac_entry(jac, jfe54, jmn54, scratch)
 
     scratch = (&
       screened_rates(k_n_fe53__fe54)*Y(jn)*state % rho &
@@ -13540,8 +13551,9 @@ contains
     call set_jac_entry(jac, jco58, jco57, scratch)
 
     scratch = (&
-      -screened_rates(k_n_co58__he4_mn55)*Y(jn)*state % rho - screened_rates(k_p_co58__he4_fe55)* &
-      Y(jp)*state % rho - screened_rates(k_p_co58__ni59)*Y(jp)*state % rho &
+      -screened_rates(k_co58__ni58__weak__mo03) - screened_rates(k_n_co58__he4_mn55)*Y(jn)* &
+      state % rho - screened_rates(k_p_co58__he4_fe55)*Y(jp)*state % rho - &
+      screened_rates(k_p_co58__ni59)*Y(jp)*state % rho &
        )
     call set_jac_entry(jac, jco58, jco58, scratch)
 
@@ -13734,6 +13746,11 @@ contains
       screened_rates(k_p_co57__ni58)*Y(jp)*state % rho &
        )
     call set_jac_entry(jac, jni58, jco57, scratch)
+
+    scratch = (&
+      screened_rates(k_co58__ni58__weak__mo03) &
+       )
+    call set_jac_entry(jac, jni58, jco58, scratch)
 
     scratch = (&
       screened_rates(k_n_ni57__ni58)*Y(jn)*state % rho &
