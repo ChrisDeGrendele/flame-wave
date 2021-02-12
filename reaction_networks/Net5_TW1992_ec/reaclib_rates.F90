@@ -688,6 +688,12 @@ contains
     call add_screening_factor(zion(jt), aion(jt), &
       zion(jhe3), aion(jhe3))
 
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jhe4), aion(jhe4))
+
+    call add_screening_factor(zion(jd), aion(jd), &
+      zion(jhe4), aion(jhe4))
+
     call add_screening_factor(zion(jc12), aion(jc12), &
       zion(jc12), aion(jc12))
 
@@ -702,6 +708,9 @@ contains
 
     call add_screening_factor(zion(jhe4), aion(jhe4), &
       zion(jn13), aion(jn13))
+
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jo16), aion(jo16))
 
     call add_screening_factor(zion(jc12), aion(jc12), &
       zion(jo16), aion(jo16))
@@ -727,14 +736,32 @@ contains
     call add_screening_factor(zion(jhe4), aion(jhe4), &
       zion(jmg22), aion(jmg22))
 
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jmg23), aion(jmg23))
+
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jal25), aion(jal25))
+
+    call add_screening_factor(zion(jhe4), aion(jhe4), &
+      zion(jsi32), aion(jsi32))
+
     call add_screening_factor(zion(jhe4), aion(jhe4), &
       zion(js30), aion(js30))
+
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jcl33), aion(jcl33))
 
     call add_screening_factor(zion(jhe4), aion(jhe4), &
       zion(jk37), aion(jk37))
 
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jca40), aion(jca40))
+
     call add_screening_factor(zion(jhe4), aion(jhe4), &
       zion(jti49), aion(jti49))
+
+    call add_screening_factor(zion(jhe4), aion(jhe4), &
+      zion(jmn55), aion(jmn55))
 
     call add_screening_factor(zion(jhe4), aion(jhe4), &
       zion(jco53), aion(jco53))
@@ -750,6 +777,21 @@ contains
 
     call add_screening_factor(zion(jhe4), aion(jhe4), &
       zion(jco57), aion(jco57))
+
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jni56), aion(jni56))
+
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jni57), aion(jni57))
+
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jni58), aion(jni58))
+
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jni59), aion(jni59))
+
+    call add_screening_factor(zion(jp), aion(jp), &
+      zion(jni60), aion(jni60))
 
     call add_screening_factor(zion(jt), aion(jt), &
       zion(jt), aion(jt))
