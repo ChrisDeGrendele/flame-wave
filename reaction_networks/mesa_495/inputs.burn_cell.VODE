@@ -1,0 +1,1520 @@
+&PROBIN
+
+  run_prefix = "react_pynucastro_"
+  
+  small_temp = 1d5
+  small_dens = 1d5
+  
+  burner_verbose = .false.
+
+  ! Set which jacobian to use
+  ! 1 = analytic jacobian
+  ! 2 = numerical jacobian
+  jacobian   = 1
+
+  renormalize_abundances = .true.
+
+  rtol_spec = 1.0d-9
+  rtol_enuc = 1.0d-6
+  rtol_temp = 1.0d-6
+  atol_spec = 1.0d-9
+  atol_enuc = 1.0d-6
+  atol_temp = 1.0d-6
+
+/
+
+&cellparams
+
+  tmax     = 1.0d0
+  numsteps = 1000
+
+  density       = 1.0d7
+  temperature   = 1.0d8
+
+
+! n     initial mass fraction
+  massfractions(1) = 0.0d0
+
+! p     initial mass fraction
+  massfractions(2) = 0.0d0
+
+! d     initial mass fraction
+  massfractions(3) = 0.0d0
+
+! t     initial mass fraction
+  massfractions(4) = 0.0d0
+
+! he3   initial mass fraction
+  massfractions(5) = 0.0d0
+
+! he4   initial mass fraction
+  massfractions(6) = 0.0d0
+
+! li6   initial mass fraction
+  massfractions(7) = 0.0d0
+
+! li7   initial mass fraction
+  massfractions(8) = 0.0d0
+
+! be7   initial mass fraction
+  massfractions(9) = 0.0d0
+
+! be9   initial mass fraction
+  massfractions(10) = 0.0d0
+
+! b8    initial mass fraction
+  massfractions(11) = 0.0d0
+
+! b10   initial mass fraction
+  massfractions(12) = 0.0d0
+
+! b11   initial mass fraction
+  massfractions(13) = 0.0d0
+
+! c11   initial mass fraction
+  massfractions(14) = 0.0d0
+
+! c12   initial mass fraction
+  massfractions(15) = 0.0d0
+
+! c13   initial mass fraction
+  massfractions(16) = 0.0d0
+
+! c14   initial mass fraction
+  massfractions(17) = 0.0d0
+
+! n12   initial mass fraction
+  massfractions(18) = 0.0d0
+
+! n13   initial mass fraction
+  massfractions(19) = 0.0d0
+
+! n14   initial mass fraction
+  massfractions(20) = 0.0d0
+
+! n15   initial mass fraction
+  massfractions(21) = 0.0d0
+
+! o14   initial mass fraction
+  massfractions(22) = 0.0d0
+
+! o15   initial mass fraction
+  massfractions(23) = 0.0d0
+
+! o16   initial mass fraction
+  massfractions(24) = 0.0d0
+
+! o17   initial mass fraction
+  massfractions(25) = 0.0d0
+
+! o18   initial mass fraction
+  massfractions(26) = 0.0d0
+
+! o19   initial mass fraction
+  massfractions(27) = 0.0d0
+
+! o20   initial mass fraction
+  massfractions(28) = 0.0d0
+
+! f17   initial mass fraction
+  massfractions(29) = 0.0d0
+
+! f18   initial mass fraction
+  massfractions(30) = 0.0d0
+
+! f19   initial mass fraction
+  massfractions(31) = 0.0d0
+
+! f20   initial mass fraction
+  massfractions(32) = 0.0d0
+
+! f21   initial mass fraction
+  massfractions(33) = 0.0d0
+
+! ne17  initial mass fraction
+  massfractions(34) = 0.0d0
+
+! ne18  initial mass fraction
+  massfractions(35) = 0.0d0
+
+! ne19  initial mass fraction
+  massfractions(36) = 0.0d0
+
+! ne20  initial mass fraction
+  massfractions(37) = 0.0d0
+
+! ne21  initial mass fraction
+  massfractions(38) = 0.0d0
+
+! ne22  initial mass fraction
+  massfractions(39) = 0.0d0
+
+! ne23  initial mass fraction
+  massfractions(40) = 0.0d0
+
+! ne24  initial mass fraction
+  massfractions(41) = 0.0d0
+
+! na19  initial mass fraction
+  massfractions(42) = 0.0d0
+
+! na20  initial mass fraction
+  massfractions(43) = 0.0d0
+
+! na21  initial mass fraction
+  massfractions(44) = 0.0d0
+
+! na22  initial mass fraction
+  massfractions(45) = 0.0d0
+
+! na23  initial mass fraction
+  massfractions(46) = 0.0d0
+
+! na24  initial mass fraction
+  massfractions(47) = 0.0d0
+
+! na25  initial mass fraction
+  massfractions(48) = 0.0d0
+
+! na26  initial mass fraction
+  massfractions(49) = 0.0d0
+
+! na27  initial mass fraction
+  massfractions(50) = 0.0d0
+
+! mg20  initial mass fraction
+  massfractions(51) = 0.0d0
+
+! mg21  initial mass fraction
+  massfractions(52) = 0.0d0
+
+! mg22  initial mass fraction
+  massfractions(53) = 0.0d0
+
+! mg23  initial mass fraction
+  massfractions(54) = 0.0d0
+
+! mg24  initial mass fraction
+  massfractions(55) = 0.0d0
+
+! mg25  initial mass fraction
+  massfractions(56) = 0.0d0
+
+! mg26  initial mass fraction
+  massfractions(57) = 0.0d0
+
+! mg27  initial mass fraction
+  massfractions(58) = 0.0d0
+
+! mg28  initial mass fraction
+  massfractions(59) = 0.0d0
+
+! mg29  initial mass fraction
+  massfractions(60) = 0.0d0
+
+! al22  initial mass fraction
+  massfractions(61) = 0.0d0
+
+! al23  initial mass fraction
+  massfractions(62) = 0.0d0
+
+! al24  initial mass fraction
+  massfractions(63) = 0.0d0
+
+! al25  initial mass fraction
+  massfractions(64) = 0.0d0
+
+! al26  initial mass fraction
+  massfractions(65) = 0.0d0
+
+! al27  initial mass fraction
+  massfractions(66) = 0.0d0
+
+! al28  initial mass fraction
+  massfractions(67) = 0.0d0
+
+! al29  initial mass fraction
+  massfractions(68) = 0.0d0
+
+! al30  initial mass fraction
+  massfractions(69) = 0.0d0
+
+! al31  initial mass fraction
+  massfractions(70) = 0.0d0
+
+! si23  initial mass fraction
+  massfractions(71) = 0.0d0
+
+! si24  initial mass fraction
+  massfractions(72) = 0.0d0
+
+! si25  initial mass fraction
+  massfractions(73) = 0.0d0
+
+! si26  initial mass fraction
+  massfractions(74) = 0.0d0
+
+! si27  initial mass fraction
+  massfractions(75) = 0.0d0
+
+! si28  initial mass fraction
+  massfractions(76) = 0.0d0
+
+! si29  initial mass fraction
+  massfractions(77) = 0.0d0
+
+! si30  initial mass fraction
+  massfractions(78) = 0.0d0
+
+! si31  initial mass fraction
+  massfractions(79) = 0.0d0
+
+! si32  initial mass fraction
+  massfractions(80) = 0.0d0
+
+! si33  initial mass fraction
+  massfractions(81) = 0.0d0
+
+! si34  initial mass fraction
+  massfractions(82) = 0.0d0
+
+! p27   initial mass fraction
+  massfractions(83) = 0.0d0
+
+! p28   initial mass fraction
+  massfractions(84) = 0.0d0
+
+! p29   initial mass fraction
+  massfractions(85) = 0.0d0
+
+! p30   initial mass fraction
+  massfractions(86) = 0.0d0
+
+! p31   initial mass fraction
+  massfractions(87) = 0.0d0
+
+! p32   initial mass fraction
+  massfractions(88) = 0.0d0
+
+! p33   initial mass fraction
+  massfractions(89) = 0.0d0
+
+! p34   initial mass fraction
+  massfractions(90) = 0.0d0
+
+! p35   initial mass fraction
+  massfractions(91) = 0.0d0
+
+! p36   initial mass fraction
+  massfractions(92) = 0.0d0
+
+! p37   initial mass fraction
+  massfractions(93) = 0.0d0
+
+! p38   initial mass fraction
+  massfractions(94) = 0.0d0
+
+! s28   initial mass fraction
+  massfractions(95) = 0.0d0
+
+! s29   initial mass fraction
+  massfractions(96) = 0.0d0
+
+! s30   initial mass fraction
+  massfractions(97) = 0.0d0
+
+! s31   initial mass fraction
+  massfractions(98) = 0.0d0
+
+! s32   initial mass fraction
+  massfractions(99) = 0.0d0
+
+! s33   initial mass fraction
+  massfractions(100) = 0.0d0
+
+! s34   initial mass fraction
+  massfractions(101) = 0.0d0
+
+! s35   initial mass fraction
+  massfractions(102) = 0.0d0
+
+! s36   initial mass fraction
+  massfractions(103) = 0.0d0
+
+! s37   initial mass fraction
+  massfractions(104) = 0.0d0
+
+! s38   initial mass fraction
+  massfractions(105) = 0.0d0
+
+! s39   initial mass fraction
+  massfractions(106) = 0.0d0
+
+! s40   initial mass fraction
+  massfractions(107) = 0.0d0
+
+! s41   initial mass fraction
+  massfractions(108) = 0.0d0
+
+! s42   initial mass fraction
+  massfractions(109) = 0.0d0
+
+! cl31  initial mass fraction
+  massfractions(110) = 0.0d0
+
+! cl32  initial mass fraction
+  massfractions(111) = 0.0d0
+
+! cl33  initial mass fraction
+  massfractions(112) = 0.0d0
+
+! cl34  initial mass fraction
+  massfractions(113) = 0.0d0
+
+! cl35  initial mass fraction
+  massfractions(114) = 0.0d0
+
+! cl36  initial mass fraction
+  massfractions(115) = 0.0d0
+
+! cl37  initial mass fraction
+  massfractions(116) = 0.0d0
+
+! cl38  initial mass fraction
+  massfractions(117) = 0.0d0
+
+! cl39  initial mass fraction
+  massfractions(118) = 0.0d0
+
+! cl40  initial mass fraction
+  massfractions(119) = 0.0d0
+
+! cl41  initial mass fraction
+  massfractions(120) = 0.0d0
+
+! cl42  initial mass fraction
+  massfractions(121) = 0.0d0
+
+! cl43  initial mass fraction
+  massfractions(122) = 0.0d0
+
+! cl44  initial mass fraction
+  massfractions(123) = 0.0d0
+
+! cl45  initial mass fraction
+  massfractions(124) = 0.0d0
+
+! ar32  initial mass fraction
+  massfractions(125) = 0.0d0
+
+! ar33  initial mass fraction
+  massfractions(126) = 0.0d0
+
+! ar34  initial mass fraction
+  massfractions(127) = 0.0d0
+
+! ar35  initial mass fraction
+  massfractions(128) = 0.0d0
+
+! ar36  initial mass fraction
+  massfractions(129) = 0.0d0
+
+! ar37  initial mass fraction
+  massfractions(130) = 0.0d0
+
+! ar38  initial mass fraction
+  massfractions(131) = 0.0d0
+
+! ar39  initial mass fraction
+  massfractions(132) = 0.0d0
+
+! ar40  initial mass fraction
+  massfractions(133) = 0.0d0
+
+! ar41  initial mass fraction
+  massfractions(134) = 0.0d0
+
+! ar42  initial mass fraction
+  massfractions(135) = 0.0d0
+
+! ar43  initial mass fraction
+  massfractions(136) = 0.0d0
+
+! ar44  initial mass fraction
+  massfractions(137) = 0.0d0
+
+! ar45  initial mass fraction
+  massfractions(138) = 0.0d0
+
+! ar46  initial mass fraction
+  massfractions(139) = 0.0d0
+
+! k35   initial mass fraction
+  massfractions(140) = 0.0d0
+
+! k36   initial mass fraction
+  massfractions(141) = 0.0d0
+
+! k37   initial mass fraction
+  massfractions(142) = 0.0d0
+
+! k38   initial mass fraction
+  massfractions(143) = 0.0d0
+
+! k39   initial mass fraction
+  massfractions(144) = 0.0d0
+
+! k40   initial mass fraction
+  massfractions(145) = 0.0d0
+
+! k41   initial mass fraction
+  massfractions(146) = 0.0d0
+
+! k42   initial mass fraction
+  massfractions(147) = 0.0d0
+
+! k43   initial mass fraction
+  massfractions(148) = 0.0d0
+
+! k44   initial mass fraction
+  massfractions(149) = 0.0d0
+
+! k45   initial mass fraction
+  massfractions(150) = 0.0d0
+
+! k46   initial mass fraction
+  massfractions(151) = 0.0d0
+
+! k47   initial mass fraction
+  massfractions(152) = 0.0d0
+
+! k48   initial mass fraction
+  massfractions(153) = 0.0d0
+
+! k49   initial mass fraction
+  massfractions(154) = 0.0d0
+
+! ca36  initial mass fraction
+  massfractions(155) = 0.0d0
+
+! ca37  initial mass fraction
+  massfractions(156) = 0.0d0
+
+! ca38  initial mass fraction
+  massfractions(157) = 0.0d0
+
+! ca39  initial mass fraction
+  massfractions(158) = 0.0d0
+
+! ca40  initial mass fraction
+  massfractions(159) = 0.0d0
+
+! ca41  initial mass fraction
+  massfractions(160) = 0.0d0
+
+! ca42  initial mass fraction
+  massfractions(161) = 0.0d0
+
+! ca43  initial mass fraction
+  massfractions(162) = 0.0d0
+
+! ca44  initial mass fraction
+  massfractions(163) = 0.0d0
+
+! ca45  initial mass fraction
+  massfractions(164) = 0.0d0
+
+! ca46  initial mass fraction
+  massfractions(165) = 0.0d0
+
+! ca47  initial mass fraction
+  massfractions(166) = 0.0d0
+
+! ca48  initial mass fraction
+  massfractions(167) = 0.0d0
+
+! ca49  initial mass fraction
+  massfractions(168) = 0.0d0
+
+! sc40  initial mass fraction
+  massfractions(169) = 0.0d0
+
+! sc41  initial mass fraction
+  massfractions(170) = 0.0d0
+
+! sc42  initial mass fraction
+  massfractions(171) = 0.0d0
+
+! sc43  initial mass fraction
+  massfractions(172) = 0.0d0
+
+! sc44  initial mass fraction
+  massfractions(173) = 0.0d0
+
+! sc45  initial mass fraction
+  massfractions(174) = 0.0d0
+
+! sc46  initial mass fraction
+  massfractions(175) = 0.0d0
+
+! sc47  initial mass fraction
+  massfractions(176) = 0.0d0
+
+! sc48  initial mass fraction
+  massfractions(177) = 0.0d0
+
+! sc49  initial mass fraction
+  massfractions(178) = 0.0d0
+
+! sc50  initial mass fraction
+  massfractions(179) = 0.0d0
+
+! sc51  initial mass fraction
+  massfractions(180) = 0.0d0
+
+! ti41  initial mass fraction
+  massfractions(181) = 0.0d0
+
+! ti42  initial mass fraction
+  massfractions(182) = 0.0d0
+
+! ti43  initial mass fraction
+  massfractions(183) = 0.0d0
+
+! ti44  initial mass fraction
+  massfractions(184) = 0.0d0
+
+! ti45  initial mass fraction
+  massfractions(185) = 0.0d0
+
+! ti46  initial mass fraction
+  massfractions(186) = 0.0d0
+
+! ti47  initial mass fraction
+  massfractions(187) = 0.0d0
+
+! ti48  initial mass fraction
+  massfractions(188) = 0.0d0
+
+! ti49  initial mass fraction
+  massfractions(189) = 0.0d0
+
+! ti50  initial mass fraction
+  massfractions(190) = 0.0d0
+
+! ti51  initial mass fraction
+  massfractions(191) = 0.0d0
+
+! ti52  initial mass fraction
+  massfractions(192) = 0.0d0
+
+! ti53  initial mass fraction
+  massfractions(193) = 0.0d0
+
+! v43   initial mass fraction
+  massfractions(194) = 0.0d0
+
+! v44   initial mass fraction
+  massfractions(195) = 0.0d0
+
+! v45   initial mass fraction
+  massfractions(196) = 0.0d0
+
+! v46   initial mass fraction
+  massfractions(197) = 0.0d0
+
+! v47   initial mass fraction
+  massfractions(198) = 0.0d0
+
+! v48   initial mass fraction
+  massfractions(199) = 0.0d0
+
+! v49   initial mass fraction
+  massfractions(200) = 0.0d0
+
+! v50   initial mass fraction
+  massfractions(201) = 0.0d0
+
+! v51   initial mass fraction
+  massfractions(202) = 0.0d0
+
+! v52   initial mass fraction
+  massfractions(203) = 0.0d0
+
+! v53   initial mass fraction
+  massfractions(204) = 0.0d0
+
+! v54   initial mass fraction
+  massfractions(205) = 0.0d0
+
+! v55   initial mass fraction
+  massfractions(206) = 0.0d0
+
+! cr44  initial mass fraction
+  massfractions(207) = 0.0d0
+
+! cr45  initial mass fraction
+  massfractions(208) = 0.0d0
+
+! cr46  initial mass fraction
+  massfractions(209) = 0.0d0
+
+! cr47  initial mass fraction
+  massfractions(210) = 0.0d0
+
+! cr48  initial mass fraction
+  massfractions(211) = 0.0d0
+
+! cr49  initial mass fraction
+  massfractions(212) = 0.0d0
+
+! cr50  initial mass fraction
+  massfractions(213) = 0.0d0
+
+! cr51  initial mass fraction
+  massfractions(214) = 0.0d0
+
+! cr52  initial mass fraction
+  massfractions(215) = 0.0d0
+
+! cr53  initial mass fraction
+  massfractions(216) = 0.0d0
+
+! cr54  initial mass fraction
+  massfractions(217) = 0.0d0
+
+! cr55  initial mass fraction
+  massfractions(218) = 0.0d0
+
+! cr56  initial mass fraction
+  massfractions(219) = 0.0d0
+
+! cr57  initial mass fraction
+  massfractions(220) = 0.0d0
+
+! cr58  initial mass fraction
+  massfractions(221) = 0.0d0
+
+! mn46  initial mass fraction
+  massfractions(222) = 0.0d0
+
+! mn47  initial mass fraction
+  massfractions(223) = 0.0d0
+
+! mn48  initial mass fraction
+  massfractions(224) = 0.0d0
+
+! mn49  initial mass fraction
+  massfractions(225) = 0.0d0
+
+! mn50  initial mass fraction
+  massfractions(226) = 0.0d0
+
+! mn51  initial mass fraction
+  massfractions(227) = 0.0d0
+
+! mn52  initial mass fraction
+  massfractions(228) = 0.0d0
+
+! mn53  initial mass fraction
+  massfractions(229) = 0.0d0
+
+! mn54  initial mass fraction
+  massfractions(230) = 0.0d0
+
+! mn55  initial mass fraction
+  massfractions(231) = 0.0d0
+
+! mn56  initial mass fraction
+  massfractions(232) = 0.0d0
+
+! mn57  initial mass fraction
+  massfractions(233) = 0.0d0
+
+! mn58  initial mass fraction
+  massfractions(234) = 0.0d0
+
+! mn59  initial mass fraction
+  massfractions(235) = 0.0d0
+
+! mn60  initial mass fraction
+  massfractions(236) = 0.0d0
+
+! mn61  initial mass fraction
+  massfractions(237) = 0.0d0
+
+! fe47  initial mass fraction
+  massfractions(238) = 0.0d0
+
+! fe48  initial mass fraction
+  massfractions(239) = 0.0d0
+
+! fe49  initial mass fraction
+  massfractions(240) = 0.0d0
+
+! fe50  initial mass fraction
+  massfractions(241) = 0.0d0
+
+! fe51  initial mass fraction
+  massfractions(242) = 0.0d0
+
+! fe52  initial mass fraction
+  massfractions(243) = 0.0d0
+
+! fe53  initial mass fraction
+  massfractions(244) = 0.0d0
+
+! fe54  initial mass fraction
+  massfractions(245) = 0.0d0
+
+! fe55  initial mass fraction
+  massfractions(246) = 0.0d0
+
+! fe56  initial mass fraction
+  massfractions(247) = 0.0d0
+
+! fe57  initial mass fraction
+  massfractions(248) = 0.0d0
+
+! fe58  initial mass fraction
+  massfractions(249) = 0.0d0
+
+! fe59  initial mass fraction
+  massfractions(250) = 0.0d0
+
+! fe60  initial mass fraction
+  massfractions(251) = 0.0d0
+
+! fe61  initial mass fraction
+  massfractions(252) = 0.0d0
+
+! fe62  initial mass fraction
+  massfractions(253) = 0.0d0
+
+! fe63  initial mass fraction
+  massfractions(254) = 0.0d0
+
+! fe64  initial mass fraction
+  massfractions(255) = 0.0d0
+
+! fe65  initial mass fraction
+  massfractions(256) = 0.0d0
+
+! fe66  initial mass fraction
+  massfractions(257) = 0.0d0
+
+! co50  initial mass fraction
+  massfractions(258) = 0.0d0
+
+! co51  initial mass fraction
+  massfractions(259) = 0.0d0
+
+! co52  initial mass fraction
+  massfractions(260) = 0.0d0
+
+! co53  initial mass fraction
+  massfractions(261) = 0.0d0
+
+! co54  initial mass fraction
+  massfractions(262) = 0.0d0
+
+! co55  initial mass fraction
+  massfractions(263) = 0.0d0
+
+! co56  initial mass fraction
+  massfractions(264) = 0.0d0
+
+! co57  initial mass fraction
+  massfractions(265) = 0.0d0
+
+! co58  initial mass fraction
+  massfractions(266) = 0.0d0
+
+! co59  initial mass fraction
+  massfractions(267) = 0.0d0
+
+! co60  initial mass fraction
+  massfractions(268) = 0.0d0
+
+! co61  initial mass fraction
+  massfractions(269) = 0.0d0
+
+! co62  initial mass fraction
+  massfractions(270) = 0.0d0
+
+! co63  initial mass fraction
+  massfractions(271) = 0.0d0
+
+! co64  initial mass fraction
+  massfractions(272) = 0.0d0
+
+! co65  initial mass fraction
+  massfractions(273) = 0.0d0
+
+! co66  initial mass fraction
+  massfractions(274) = 0.0d0
+
+! co67  initial mass fraction
+  massfractions(275) = 0.0d0
+
+! ni51  initial mass fraction
+  massfractions(276) = 0.0d0
+
+! ni52  initial mass fraction
+  massfractions(277) = 0.0d0
+
+! ni53  initial mass fraction
+  massfractions(278) = 0.0d0
+
+! ni54  initial mass fraction
+  massfractions(279) = 0.0d0
+
+! ni55  initial mass fraction
+  massfractions(280) = 0.0d0
+
+! ni56  initial mass fraction
+  massfractions(281) = 0.0d0
+
+! ni57  initial mass fraction
+  massfractions(282) = 0.0d0
+
+! ni58  initial mass fraction
+  massfractions(283) = 0.0d0
+
+! ni59  initial mass fraction
+  massfractions(284) = 0.0d0
+
+! ni60  initial mass fraction
+  massfractions(285) = 0.0d0
+
+! ni61  initial mass fraction
+  massfractions(286) = 0.0d0
+
+! ni62  initial mass fraction
+  massfractions(287) = 0.0d0
+
+! ni63  initial mass fraction
+  massfractions(288) = 0.0d0
+
+! ni64  initial mass fraction
+  massfractions(289) = 0.0d0
+
+! ni65  initial mass fraction
+  massfractions(290) = 0.0d0
+
+! ni66  initial mass fraction
+  massfractions(291) = 0.0d0
+
+! ni67  initial mass fraction
+  massfractions(292) = 0.0d0
+
+! ni68  initial mass fraction
+  massfractions(293) = 0.0d0
+
+! cu55  initial mass fraction
+  massfractions(294) = 0.0d0
+
+! cu56  initial mass fraction
+  massfractions(295) = 0.0d0
+
+! cu57  initial mass fraction
+  massfractions(296) = 0.0d0
+
+! cu58  initial mass fraction
+  massfractions(297) = 0.0d0
+
+! cu59  initial mass fraction
+  massfractions(298) = 0.0d0
+
+! cu60  initial mass fraction
+  massfractions(299) = 0.0d0
+
+! cu61  initial mass fraction
+  massfractions(300) = 0.0d0
+
+! cu62  initial mass fraction
+  massfractions(301) = 0.0d0
+
+! cu63  initial mass fraction
+  massfractions(302) = 0.0d0
+
+! cu64  initial mass fraction
+  massfractions(303) = 0.0d0
+
+! cu65  initial mass fraction
+  massfractions(304) = 0.0d0
+
+! cu66  initial mass fraction
+  massfractions(305) = 0.0d0
+
+! cu67  initial mass fraction
+  massfractions(306) = 0.0d0
+
+! cu68  initial mass fraction
+  massfractions(307) = 0.0d0
+
+! cu69  initial mass fraction
+  massfractions(308) = 0.0d0
+
+! zn57  initial mass fraction
+  massfractions(309) = 0.0d0
+
+! zn58  initial mass fraction
+  massfractions(310) = 0.0d0
+
+! zn59  initial mass fraction
+  massfractions(311) = 0.0d0
+
+! zn60  initial mass fraction
+  massfractions(312) = 0.0d0
+
+! zn61  initial mass fraction
+  massfractions(313) = 0.0d0
+
+! zn62  initial mass fraction
+  massfractions(314) = 0.0d0
+
+! zn63  initial mass fraction
+  massfractions(315) = 0.0d0
+
+! zn64  initial mass fraction
+  massfractions(316) = 0.0d0
+
+! zn65  initial mass fraction
+  massfractions(317) = 0.0d0
+
+! zn66  initial mass fraction
+  massfractions(318) = 0.0d0
+
+! zn67  initial mass fraction
+  massfractions(319) = 0.0d0
+
+! zn68  initial mass fraction
+  massfractions(320) = 0.0d0
+
+! zn69  initial mass fraction
+  massfractions(321) = 0.0d0
+
+! zn70  initial mass fraction
+  massfractions(322) = 0.0d0
+
+! zn71  initial mass fraction
+  massfractions(323) = 0.0d0
+
+! zn72  initial mass fraction
+  massfractions(324) = 0.0d0
+
+! ga59  initial mass fraction
+  massfractions(325) = 0.0d0
+
+! ga60  initial mass fraction
+  massfractions(326) = 0.0d0
+
+! ga61  initial mass fraction
+  massfractions(327) = 0.0d0
+
+! ga62  initial mass fraction
+  massfractions(328) = 0.0d0
+
+! ga63  initial mass fraction
+  massfractions(329) = 0.0d0
+
+! ga64  initial mass fraction
+  massfractions(330) = 0.0d0
+
+! ga65  initial mass fraction
+  massfractions(331) = 0.0d0
+
+! ga66  initial mass fraction
+  massfractions(332) = 0.0d0
+
+! ga67  initial mass fraction
+  massfractions(333) = 0.0d0
+
+! ga68  initial mass fraction
+  massfractions(334) = 0.0d0
+
+! ga69  initial mass fraction
+  massfractions(335) = 0.0d0
+
+! ga70  initial mass fraction
+  massfractions(336) = 0.0d0
+
+! ga71  initial mass fraction
+  massfractions(337) = 0.0d0
+
+! ga72  initial mass fraction
+  massfractions(338) = 0.0d0
+
+! ga73  initial mass fraction
+  massfractions(339) = 0.0d0
+
+! ga74  initial mass fraction
+  massfractions(340) = 0.0d0
+
+! ga75  initial mass fraction
+  massfractions(341) = 0.0d0
+
+! ge62  initial mass fraction
+  massfractions(342) = 0.0d0
+
+! ge63  initial mass fraction
+  massfractions(343) = 0.0d0
+
+! ge64  initial mass fraction
+  massfractions(344) = 0.0d0
+
+! ge65  initial mass fraction
+  massfractions(345) = 0.0d0
+
+! ge66  initial mass fraction
+  massfractions(346) = 0.0d0
+
+! ge67  initial mass fraction
+  massfractions(347) = 0.0d0
+
+! ge68  initial mass fraction
+  massfractions(348) = 0.0d0
+
+! ge69  initial mass fraction
+  massfractions(349) = 0.0d0
+
+! ge70  initial mass fraction
+  massfractions(350) = 0.0d0
+
+! ge71  initial mass fraction
+  massfractions(351) = 0.0d0
+
+! ge72  initial mass fraction
+  massfractions(352) = 0.0d0
+
+! ge73  initial mass fraction
+  massfractions(353) = 0.0d0
+
+! ge74  initial mass fraction
+  massfractions(354) = 0.0d0
+
+! ge75  initial mass fraction
+  massfractions(355) = 0.0d0
+
+! ge76  initial mass fraction
+  massfractions(356) = 0.0d0
+
+! ge77  initial mass fraction
+  massfractions(357) = 0.0d0
+
+! ge78  initial mass fraction
+  massfractions(358) = 0.0d0
+
+! as65  initial mass fraction
+  massfractions(359) = 0.0d0
+
+! as66  initial mass fraction
+  massfractions(360) = 0.0d0
+
+! as67  initial mass fraction
+  massfractions(361) = 0.0d0
+
+! as68  initial mass fraction
+  massfractions(362) = 0.0d0
+
+! as69  initial mass fraction
+  massfractions(363) = 0.0d0
+
+! as70  initial mass fraction
+  massfractions(364) = 0.0d0
+
+! as71  initial mass fraction
+  massfractions(365) = 0.0d0
+
+! as72  initial mass fraction
+  massfractions(366) = 0.0d0
+
+! as73  initial mass fraction
+  massfractions(367) = 0.0d0
+
+! as74  initial mass fraction
+  massfractions(368) = 0.0d0
+
+! as75  initial mass fraction
+  massfractions(369) = 0.0d0
+
+! as76  initial mass fraction
+  massfractions(370) = 0.0d0
+
+! as77  initial mass fraction
+  massfractions(371) = 0.0d0
+
+! as78  initial mass fraction
+  massfractions(372) = 0.0d0
+
+! as79  initial mass fraction
+  massfractions(373) = 0.0d0
+
+! se67  initial mass fraction
+  massfractions(374) = 0.0d0
+
+! se68  initial mass fraction
+  massfractions(375) = 0.0d0
+
+! se69  initial mass fraction
+  massfractions(376) = 0.0d0
+
+! se70  initial mass fraction
+  massfractions(377) = 0.0d0
+
+! se71  initial mass fraction
+  massfractions(378) = 0.0d0
+
+! se72  initial mass fraction
+  massfractions(379) = 0.0d0
+
+! se73  initial mass fraction
+  massfractions(380) = 0.0d0
+
+! se74  initial mass fraction
+  massfractions(381) = 0.0d0
+
+! se75  initial mass fraction
+  massfractions(382) = 0.0d0
+
+! se76  initial mass fraction
+  massfractions(383) = 0.0d0
+
+! se77  initial mass fraction
+  massfractions(384) = 0.0d0
+
+! se78  initial mass fraction
+  massfractions(385) = 0.0d0
+
+! se79  initial mass fraction
+  massfractions(386) = 0.0d0
+
+! se80  initial mass fraction
+  massfractions(387) = 0.0d0
+
+! se81  initial mass fraction
+  massfractions(388) = 0.0d0
+
+! se82  initial mass fraction
+  massfractions(389) = 0.0d0
+
+! se83  initial mass fraction
+  massfractions(390) = 0.0d0
+
+! br68  initial mass fraction
+  massfractions(391) = 0.0d0
+
+! br69  initial mass fraction
+  massfractions(392) = 0.0d0
+
+! br70  initial mass fraction
+  massfractions(393) = 0.0d0
+
+! br71  initial mass fraction
+  massfractions(394) = 0.0d0
+
+! br72  initial mass fraction
+  massfractions(395) = 0.0d0
+
+! br73  initial mass fraction
+  massfractions(396) = 0.0d0
+
+! br74  initial mass fraction
+  massfractions(397) = 0.0d0
+
+! br75  initial mass fraction
+  massfractions(398) = 0.0d0
+
+! br76  initial mass fraction
+  massfractions(399) = 0.0d0
+
+! br77  initial mass fraction
+  massfractions(400) = 0.0d0
+
+! br78  initial mass fraction
+  massfractions(401) = 0.0d0
+
+! br79  initial mass fraction
+  massfractions(402) = 0.0d0
+
+! br80  initial mass fraction
+  massfractions(403) = 0.0d0
+
+! br81  initial mass fraction
+  massfractions(404) = 0.0d0
+
+! br82  initial mass fraction
+  massfractions(405) = 0.0d0
+
+! br83  initial mass fraction
+  massfractions(406) = 0.0d0
+
+! kr69  initial mass fraction
+  massfractions(407) = 0.0d0
+
+! kr70  initial mass fraction
+  massfractions(408) = 0.0d0
+
+! kr71  initial mass fraction
+  massfractions(409) = 0.0d0
+
+! kr72  initial mass fraction
+  massfractions(410) = 0.0d0
+
+! kr73  initial mass fraction
+  massfractions(411) = 0.0d0
+
+! kr74  initial mass fraction
+  massfractions(412) = 0.0d0
+
+! kr75  initial mass fraction
+  massfractions(413) = 0.0d0
+
+! kr76  initial mass fraction
+  massfractions(414) = 0.0d0
+
+! kr77  initial mass fraction
+  massfractions(415) = 0.0d0
+
+! kr78  initial mass fraction
+  massfractions(416) = 0.0d0
+
+! kr79  initial mass fraction
+  massfractions(417) = 0.0d0
+
+! kr80  initial mass fraction
+  massfractions(418) = 0.0d0
+
+! kr81  initial mass fraction
+  massfractions(419) = 0.0d0
+
+! kr82  initial mass fraction
+  massfractions(420) = 0.0d0
+
+! kr83  initial mass fraction
+  massfractions(421) = 0.0d0
+
+! kr84  initial mass fraction
+  massfractions(422) = 0.0d0
+
+! kr85  initial mass fraction
+  massfractions(423) = 0.0d0
+
+! kr86  initial mass fraction
+  massfractions(424) = 0.0d0
+
+! kr87  initial mass fraction
+  massfractions(425) = 0.0d0
+
+! rb73  initial mass fraction
+  massfractions(426) = 0.0d0
+
+! rb74  initial mass fraction
+  massfractions(427) = 0.0d0
+
+! rb75  initial mass fraction
+  massfractions(428) = 0.0d0
+
+! rb76  initial mass fraction
+  massfractions(429) = 0.0d0
+
+! rb77  initial mass fraction
+  massfractions(430) = 0.0d0
+
+! rb78  initial mass fraction
+  massfractions(431) = 0.0d0
+
+! rb79  initial mass fraction
+  massfractions(432) = 0.0d0
+
+! rb80  initial mass fraction
+  massfractions(433) = 0.0d0
+
+! rb81  initial mass fraction
+  massfractions(434) = 0.0d0
+
+! rb82  initial mass fraction
+  massfractions(435) = 0.0d0
+
+! rb83  initial mass fraction
+  massfractions(436) = 0.0d0
+
+! rb84  initial mass fraction
+  massfractions(437) = 0.0d0
+
+! rb85  initial mass fraction
+  massfractions(438) = 0.0d0
+
+! sr74  initial mass fraction
+  massfractions(439) = 0.0d0
+
+! sr75  initial mass fraction
+  massfractions(440) = 0.0d0
+
+! sr76  initial mass fraction
+  massfractions(441) = 0.0d0
+
+! sr77  initial mass fraction
+  massfractions(442) = 0.0d0
+
+! sr78  initial mass fraction
+  massfractions(443) = 0.0d0
+
+! sr79  initial mass fraction
+  massfractions(444) = 0.0d0
+
+! sr80  initial mass fraction
+  massfractions(445) = 0.0d0
+
+! sr81  initial mass fraction
+  massfractions(446) = 0.0d0
+
+! sr82  initial mass fraction
+  massfractions(447) = 0.0d0
+
+! sr83  initial mass fraction
+  massfractions(448) = 0.0d0
+
+! sr84  initial mass fraction
+  massfractions(449) = 0.0d0
+
+! y75   initial mass fraction
+  massfractions(450) = 0.0d0
+
+! y76   initial mass fraction
+  massfractions(451) = 0.0d0
+
+! y77   initial mass fraction
+  massfractions(452) = 0.0d0
+
+! y78   initial mass fraction
+  massfractions(453) = 0.0d0
+
+! y79   initial mass fraction
+  massfractions(454) = 0.0d0
+
+! y80   initial mass fraction
+  massfractions(455) = 0.0d0
+
+! y81   initial mass fraction
+  massfractions(456) = 0.0d0
+
+! y82   initial mass fraction
+  massfractions(457) = 0.0d0
+
+! y83   initial mass fraction
+  massfractions(458) = 0.0d0
+
+! y84   initial mass fraction
+  massfractions(459) = 0.0d0
+
+! y85   initial mass fraction
+  massfractions(460) = 0.0d0
+
+! y86   initial mass fraction
+  massfractions(461) = 0.0d0
+
+! y87   initial mass fraction
+  massfractions(462) = 0.0d0
+
+! zr78  initial mass fraction
+  massfractions(463) = 0.0d0
+
+! zr79  initial mass fraction
+  massfractions(464) = 0.0d0
+
+! zr80  initial mass fraction
+  massfractions(465) = 0.0d0
+
+! zr81  initial mass fraction
+  massfractions(466) = 0.0d0
+
+! zr82  initial mass fraction
+  massfractions(467) = 0.0d0
+
+! zr83  initial mass fraction
+  massfractions(468) = 0.0d0
+
+! zr84  initial mass fraction
+  massfractions(469) = 0.0d0
+
+! zr85  initial mass fraction
+  massfractions(470) = 0.0d0
+
+! zr86  initial mass fraction
+  massfractions(471) = 0.0d0
+
+! zr87  initial mass fraction
+  massfractions(472) = 0.0d0
+
+! zr88  initial mass fraction
+  massfractions(473) = 0.0d0
+
+! zr89  initial mass fraction
+  massfractions(474) = 0.0d0
+
+! zr90  initial mass fraction
+  massfractions(475) = 0.0d0
+
+! nb82  initial mass fraction
+  massfractions(476) = 0.0d0
+
+! nb83  initial mass fraction
+  massfractions(477) = 0.0d0
+
+! nb84  initial mass fraction
+  massfractions(478) = 0.0d0
+
+! nb85  initial mass fraction
+  massfractions(479) = 0.0d0
+
+! nb86  initial mass fraction
+  massfractions(480) = 0.0d0
+
+! nb87  initial mass fraction
+  massfractions(481) = 0.0d0
+
+! nb88  initial mass fraction
+  massfractions(482) = 0.0d0
+
+! nb89  initial mass fraction
+  massfractions(483) = 0.0d0
+
+! nb90  initial mass fraction
+  massfractions(484) = 0.0d0
+
+! mo83  initial mass fraction
+  massfractions(485) = 0.0d0
+
+! mo84  initial mass fraction
+  massfractions(486) = 0.0d0
+
+! mo85  initial mass fraction
+  massfractions(487) = 0.0d0
+
+! mo86  initial mass fraction
+  massfractions(488) = 0.0d0
+
+! mo87  initial mass fraction
+  massfractions(489) = 0.0d0
+
+! mo88  initial mass fraction
+  massfractions(490) = 0.0d0
+
+! mo89  initial mass fraction
+  massfractions(491) = 0.0d0
+
+! mo90  initial mass fraction
+  massfractions(492) = 0.0d0
+
+! tc89  initial mass fraction
+  massfractions(493) = 0.0d0
+
+! tc90  initial mass fraction
+  massfractions(494) = 0.0d0
+
+! tc91  initial mass fraction
+  massfractions(495) = 0.0d0
+
+/
